@@ -226,7 +226,7 @@ void runTest(Queue q, MPI_Win win, int rank, int numproc, int testSize)
 	srand(time(0) + rank);
 
 	MPI_Win_lock_all(0, win);
-
+	MPI_Barrier(MPI_COMM_WORLD);
 	startTime = MPI_Wtime();
 
 	for (int i = 0; i < testSize; i++) {
