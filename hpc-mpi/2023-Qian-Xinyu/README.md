@@ -1,1 +1,1 @@
-Thesis title: ANALYSIS OF THREAD SYNCHRONIZATION EFFICIENCY IN HYBRID MPI+THREADS PARALLEL PROGRAMS
+Thesis title: Analysis Of Thread Synchronization Efficiency In Hybrid Mpi+Threads Parallel Programs
