@@ -203,6 +203,8 @@ void showStat(int procid, int numproc, double elapsedTime, int ops)
 void runTest(Stack stack, MPI_Win win, int rank, int numproc, int testSize)
 {
 	double startTime, endTime, elapsedTime;
+	int len;
+	char procName[MPI_MAX_PROCESSOR_NAME];
 
 	srand(time(0) + rank);
 
@@ -227,6 +229,10 @@ void runTest(Stack stack, MPI_Win win, int rank, int numproc, int testSize)
 	MPI_Win_unlock_all(win);	
 
 	showStat(rank, numproc, elapsedTime, numproc * testSize);
+	
+	MPI_Barrier(MPI_COMM_WORLD);
+	MPI_Get_processor_name(procName, &len);
+    	printf("rank %d of all %d ranks was launched at %s\n", rank, numproc, procName);
 
 	for (int i = 0; i < allocNodeCount; i++) {
 		MPI_Win_detach(win, allocNodes[i]);
