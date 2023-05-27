@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[a4paper, total={8in, 10in}]{geometry}
+\usepackage{algorithm,algorithmic}
+\usepackage{caption}
+
+\DeclareCaptionFormat{myformat}{#3}
+\captionsetup[algorithm]{format=myformat}
+
+\begin{document}
+	\begin{algorithm}
+		\caption{PUSH}
+		\begin{algorithmic}[1]
+			\STATE \textit{nodeAddress} $\leftarrow$ AcquireNode(\textit{rank})
+			\STATE PutDataCallback(\textit{nodeAddress})
+			\IF {IsGlobaslAddressDummy(\textit{\textit{nodeAddress}})} 
+			\RETURN
+			\ENDIF
+			\STATE \textit{resHeadCountedNodePtr} $\leftarrow$ DUMMY
+			\STATE MPI\_Win\_lock(\textit{HeadRank}, \textit{headWin})
+			\STATE MPI\_Fetch\_and\_op(\textit{resHeadCountedNodePtr}, MPI\_NO\_OP, \textit{headWin})
+			\STATE \textit{newCountedNodePtr} $\leftarrow$ (\textit{nodeAddress.rank}, \textit{nodeAddress.offset})
+			\STATE \textit{newCountedNodePtr}.incExternalCounter()
+			\STATE \textit{oldHeadCountedNodePtr} $\leftarrow$ DUMMY 
+			\STATE \textit{countedNodePtrNext}  $\leftarrow$ DUMMY 
+			\STATE MPI\_Win\_lock(\textit{nodeAddress.rank}, \textit{nodesWin}) 
+			\STATE \textit{pushComplete} $\leftarrow$ FALSE 
+			\WHILE{\textit{pushComplete} != TRUE}
+			\STATE countedNodePtrNext $\leftarrow$ resHeadCountedNodePtr 
+			\STATE MPI\_Put(\&\textit{countedNodePtrNext}, 
+			\textit{nodeAddress.rank}, 
+			\textit{countedNodePtrNextOffset}, 
+			\textit{nodesWin}) 
+			\STATE oldHeadCountedNodePtr $\leftarrow$ resHeadCountedNodePtr 
+			\STATE MPI\_Compare\_and\_swap(\&\textit{newCountedNodePtr}, 
+			\&\textit{oldHeadCountedNodePtr}, 
+			\&\textit{resHeadCountedNodePtr}, 
+			\textit{HeadRank}, 
+			\textit{headAddress}, 
+			\textit{headWin})
+			\IF{resHeadCountedNodePtr != oldHeadCountedNodePtr} 
+			\STATE BackoffCallback() 
+			\ELSE 
+			\STATE \textit{pushComplete} $\leftarrow$ TRUE 
+			\ENDIF 
+			\ENDWHILE
+			\STATE MPI\_Win\_unlock(\textit{HeadRank}, \textit{headWin})
+			\STATE MPI\_Win\_unlock(\textit{nodeAddress.rank}, \textit{nodesWin}) 
+		\end{algorithmic}
+	\end{algorithm}
+\end{document}
