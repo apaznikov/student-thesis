@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[a4paper, total={8in, 10in}]{geometry}
+\usepackage{algorithm,algorithmic}
+\usepackage{caption}
+
+\DeclareCaptionFormat{myformat}{#3}
+\captionsetup[algorithm]{format=myformat}
+
+\begin{document}
+	\begin{algorithm}
+		\caption{POP}
+		\begin{algorithmic}[1]
+			\STATE \textit{oldHeadCountedNodePtr} $\leftarrow$ DUMMY 
+			\STATE MPI\_Win\_lock(\textit{HeadRank}, \textit{headWin}) 
+			\STATE MPI\_Fetch\_and\_op(\&\textit{oldHeadCountedNodePtr}, 
+			MPI\_NO\_OP,
+			\textit{headWin}) 
+			\STATE \textit{popComplete} $\leftarrow$ FALSE 
+			\WHILE{ \textit{pushComplete} != TRUE }
+			\STATE  IncreaseHeadCount(\textit{oldHeadCountedNodePtr}) 
+			\STATE \textit{nodeAddress} $\leftarrow$ (\textit{oldHeadCountedNodePtr}.GetOffset(), \textit{oldHeadCountedNodePtr}.GetRank()) 
+			\IF {IsGlobaslAddressDummy(\textit{nodeAddress})}  
+			\STATE  GetDataCallback(\textit{nodeAddress}) 
+			\RETURN
+			\ENDIF 
+			\STATE \textit{countedNodePtrNext} $\leftarrow$ DUMMY 
+			\STATE MPI\_Win\_lock(\textit{nodeAddress.rank}, \textit{nodesWin}) 
+			\STATE MPI\_Fetch\_and\_op(\&\textit{countedNodePtrNext}, \textit{nodeAddress.rank}, \textit{countedNodePtrNextOffset}, MPI\_NO\_OP, \textit{nodesWin}) 
+			\STATE \textit{resHeadCountedNodePtr} $\leftarrow$ DUMMY 
+			\STATE MPI\_Compare\_and\_swap(\&\textit{countedNodePtrNext}, \&\textit{oldHeadCountedNodePtr}, \&\textit{resHeadCountedNodePtr}, \textit{headWin}) 
+			\IF {resHeadCountedNodePtr = oldHeadCountedNodePtr} 
+			\STATE GetDataCallback(\textit{nodeAddress})
+			\STATE \textit{countIncrease} $\leftarrow$ -- 2 + \textit{oldHeadCountedNodePtr}.getExternalCounter() 
+			\STATE \textit{resInternalCount} $\leftarrow$ 0 
+			\STATE MPI\_Fetch\_and\_op(\&\textit{countIncrease}, 
+			\&\textit{resInternalCount}, 
+			\textit{nodeAddress.rank}, 
+			\textit{internalCounterOffset}, 
+			MPI\_SUM, 
+			\textit{nodesWin})
+			\IF {\textit{resInternalCount} = -- \textit{countIncrease}} 
+			\STATE ReleaseNode(\textit{nodeAddress}) 
+			\ENDIF 
+			\STATE \textit{popComplete} $\leftarrow$ TRUE 
+			\ELSE 
+			\STATE \textit{countIncrease} $\leftarrow$ -- 1 
+			\STATE \textit{resInternalCount} $\leftarrow$ 0 
+			\STATE MPI\_Fetch\_and\_op(\&\textit{countIncrease}, 
+			\&\textit{resInternalCount},
+			\textit{nodeAddress.rank},
+			\textit{internalCounterOffset},
+			MPI\_SUM,
+			\textit{nodesWin})
+			\IF {\textit{resInternalCount} = 1}
+			\STATE ReleaseNode(\textit{nodeAddress}) 
+			\ENDIF 
+			\ENDIF 
+			\STATE MPI\_Win\_unlock(\textit{nodeAddress.rank}, \textit{nodesWin}) 
+			\IF {\textit{popComplete} != FALSE} 
+			\STATE BackoffCallback() 
+			\ENDIF 
+			\ENDWHILE
+			\STATE MPI\_Win\_unlock(\textit{HeadRank}, \textit{headWin})
+		\end{algorithmic}
+	\end{algorithm}
+\end{document}
