@@ -1,0 +1,413 @@
+Binomial :4
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.152 usec       210.026 MB/s
+       128 bytes        0.134 usec      1909.621 MB/s
+      1024 bytes        0.121 usec     16908.990 MB/s
+      8192 bytes        0.119 usec    137632.096 MB/s
+     65536 bytes        0.139 usec    945160.337 MB/s
+    524288 bytes        0.329 usec   3187306.412 MB/s
+   4194304 bytes        0.974 usec   8616682.982 MB/s
+  33554432 bytes        5.991 usec  11202546.164 MB/s
+
+Linear :4
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.462 usec        69.292 MB/s
+       128 bytes        0.475 usec       539.168 MB/s
+      1024 bytes        0.598 usec      3424.852 MB/s
+      8192 bytes        1.706 usec      9605.435 MB/s
+     65536 bytes       21.629 usec      6060.082 MB/s
+    524288 bytes      269.715 usec      3887.722 MB/s
+   4194304 bytes     4533.672 usec      1850.290 MB/s
+  33554432 bytes    37984.750 usec      1766.732 MB/s
+Binary :4
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.168 usec       189.959 MB/s
+       128 bytes        0.199 usec      1285.328 MB/s
+      1024 bytes        0.161 usec     12718.917 MB/s
+      8192 bytes        0.164 usec     99928.030 MB/s
+     65536 bytes        0.184 usec    713196.685 MB/s
+    524288 bytes        0.371 usec   2822736.389 MB/s
+   4194304 bytes        1.099 usec   7633752.061 MB/s
+  33554432 bytes        5.950 usec  11278597.847 MB/s
+
+Binomial :8
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      716.765 usec         0.045 MB/s
+       128 bytes      478.827 usec         0.535 MB/s
+      1024 bytes      476.977 usec         4.294 MB/s
+      8192 bytes      477.326 usec        34.325 MB/s
+     65536 bytes      477.167 usec       274.688 MB/s
+    524288 bytes      476.816 usec      2199.123 MB/s
+   4194304 bytes      468.754 usec     17895.539 MB/s
+  33554432 bytes      238.066 usec    281891.561 MB/s
+
+Linear :8
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      474.130 usec         0.067 MB/s
+       128 bytes      637.640 usec         0.401 MB/s
+      1024 bytes      236.923 usec         8.644 MB/s
+      8192 bytes      236.576 usec        69.255 MB/s
+     65536 bytes      231.805 usec       565.440 MB/s
+    524288 bytes      825.466 usec      1270.284 MB/s
+   4194304 bytes    17055.441 usec       491.844 MB/s
+  33554432 bytes   116186.421 usec       577.596 MB/s
+Binary :8
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      477.472 usec         0.067 MB/s
+       128 bytes      479.219 usec         0.534 MB/s
+      1024 bytes      479.422 usec         4.272 MB/s
+      8192 bytes      479.193 usec        34.191 MB/s
+     65536 bytes      479.152 usec       273.550 MB/s
+    524288 bytes      461.498 usec      2272.116 MB/s
+   4194304 bytes      489.301 usec     17144.065 MB/s
+  33554432 bytes      119.372 usec    562180.833 MB/s
+
+
+Binomial :8
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.270 usec       118.458 MB/s
+       128 bytes        0.274 usec       935.912 MB/s
+      1024 bytes        0.267 usec      7662.262 MB/s
+      8192 bytes        0.264 usec     62062.252 MB/s
+     65536 bytes        0.288 usec    455150.621 MB/s
+    524288 bytes        0.446 usec   2348686.981 MB/s
+   4194304 bytes        1.096 usec   7655320.190 MB/s
+  33554432 bytes        5.464 usec  12282007.424 MB/s
+
+Linear :8
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.983 usec        32.537 MB/s
+       128 bytes        0.993 usec       257.903 MB/s
+      1024 bytes        1.330 usec      1539.396 MB/s
+      8192 bytes        3.346 usec      4896.141 MB/s
+     65536 bytes       53.613 usec      2444.794 MB/s
+    524288 bytes      467.030 usec      2245.201 MB/s
+   4194304 bytes     8081.425 usec      1038.011 MB/s
+  33554432 bytes    70162.776 usec       956.474 MB/s
+Binary :8
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.393 usec        81.521 MB/s
+       128 bytes        0.393 usec       651.816 MB/s
+      1024 bytes        0.383 usec      5344.049 MB/s
+      8192 bytes        0.384 usec     42670.445 MB/s
+     65536 bytes        0.408 usec    321574.112 MB/s
+    524288 bytes        0.560 usec   1871167.374 MB/s
+   4194304 bytes        1.094 usec   7671155.510 MB/s
+  33554432 bytes        5.382 usec  12469633.948 MB/s
+
+Binomial :16
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes       31.743 usec         1.008 MB/s
+       128 bytes       24.016 usec        10.659 MB/s
+      1024 bytes       47.878 usec        42.775 MB/s
+      8192 bytes       23.876 usec       686.225 MB/s
+     65536 bytes       11.920 usec     10996.393 MB/s
+    524288 bytes       23.997 usec     43696.014 MB/s
+   4194304 bytes       23.502 usec    356929.661 MB/s
+  33554432 bytes       11.880 usec   5648964.175 MB/s
+
+Binry :16
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes       63.838 usec         0.501 MB/s
+       128 bytes       31.976 usec         8.006 MB/s
+      1024 bytes       39.928 usec        51.293 MB/s
+      8192 bytes       35.966 usec       455.543 MB/s
+     65536 bytes       32.002 usec      4095.780 MB/s
+    524288 bytes       32.022 usec     32745.065 MB/s
+   4194304 bytes       23.643 usec    354803.599 MB/s
+  33554432 bytes       31.985 usec   2098157.936 MB/s
+
+Linear :16
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes       23.852 usec         1.342 MB/s
+       128 bytes       23.953 usec        10.688 MB/s
+      1024 bytes       47.956 usec        42.706 MB/s
+      8192 bytes        6.717 usec      2439.268 MB/s
+     65536 bytes      206.016 usec       636.222 MB/s
+    524288 bytes     2202.108 usec       476.169 MB/s
+   4194304 bytes    22452.621 usec       373.614 MB/s
+  33554432 bytes   174019.209 usec       385.641 MB/s
+
+
+Binomial :16
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      472.954 usec         0.068 MB/s
+       128 bytes      477.247 usec         0.536 MB/s
+      1024 bytes      957.583 usec         2.139 MB/s
+      8192 bytes      476.869 usec        34.357 MB/s
+     65536 bytes      557.438 usec       235.133 MB/s
+    524288 bytes      396.842 usec      2642.303 MB/s
+   4194304 bytes      550.503 usec     15238.078 MB/s
+  33554432 bytes      396.948 usec    169062.283 MB/s
+
+Linear :16
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      556.625 usec         0.057 MB/s
+       128 bytes       80.768 usec         3.170 MB/s
+      1024 bytes      878.241 usec         2.332 MB/s
+      8192 bytes      556.104 usec        29.462 MB/s
+     65536 bytes      468.031 usec       280.050 MB/s
+    524288 bytes     2298.644 usec       456.172 MB/s
+   4194304 bytes    16775.218 usec       500.060 MB/s
+  33554432 bytes   174019.209 usec       385.641 MB/s
+Binary :16
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      952.766 usec         0.034 MB/s
+       128 bytes      477.087 usec         0.537 MB/s
+      1024 bytes      476.939 usec         4.294 MB/s
+      8192 bytes      477.060 usec        34.344 MB/s
+     65536 bytes      470.647 usec       278.493 MB/s
+    524288 bytes      477.014 usec      2198.207 MB/s
+   4194304 bytes     1430.905 usec      5862.449 MB/s
+  33554432 bytes      476.866 usec    140729.065 MB/s
+
+Binomial :24
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes       59.796 usec         0.535 MB/s
+       128 bytes       31.860 usec         8.035 MB/s
+      1024 bytes       63.851 usec        32.075 MB/s
+      8192 bytes       47.848 usec       342.418 MB/s
+     65536 bytes       47.835 usec      2740.110 MB/s
+    524288 bytes       47.884 usec     21898.298 MB/s
+   4194304 bytes       71.506 usec    117312.716 MB/s
+  33554432 bytes       51.856 usec   1294148.130 MB/s
+
+Binry :24
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes       35.693 usec         0.897 MB/s
+       128 bytes       95.853 usec         2.671 MB/s
+      1024 bytes       39.888 usec        51.343 MB/s
+      8192 bytes       59.946 usec       273.315 MB/s
+     65536 bytes       48.007 usec      2730.254 MB/s
+    524288 bytes       47.855 usec     21911.599 MB/s
+   4194304 bytes       59.533 usec    140907.157 MB/s
+  33554432 bytes       71.850 usec    934012.130 MB/s
+
+Linear :24
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes       71.638 usec         0.447 MB/s
+       128 bytes       47.813 usec         5.354 MB/s
+      1024 bytes       23.849 usec        85.873 MB/s
+      8192 bytes       95.782 usec       171.055 MB/s
+     65536 bytes      311.164 usec       421.232 MB/s
+    524288 bytes     3857.956 usec       271.796 MB/s
+   4194304 bytes    40590.178 usec       206.666 MB/s
+  33554432 bytes   443996.469 usec       151.147 MB/s
+
+Binomial :24
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes     1196.122 usec         0.027 MB/s
+       128 bytes      957.040 usec         0.267 MB/s
+      1024 bytes     1117.675 usec         1.832 MB/s
+      8192 bytes     1920.004 usec         8.533 MB/s
+     65536 bytes      317.024 usec       413.446 MB/s
+    524288 bytes     1911.502 usec       548.561 MB/s
+   4194304 bytes      950.033 usec      8829.803 MB/s
+  33554432 bytes     1357.151 usec     49448.332 MB/s
+
+Linear :24
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes     1914.557 usec         0.017 MB/s
+       128 bytes      876.500 usec         0.292 MB/s
+      1024 bytes      879.166 usec         2.329 MB/s
+      8192 bytes     1117.012 usec        14.668 MB/s
+     65536 bytes     1182.567 usec       110.837 MB/s
+    524288 bytes     4416.703 usec       237.412 MB/s
+   4194304 bytes    42893.533 usec       195.568 MB/s
+  33554432 bytes   443996.469 usec       151.147 MB/s
+Binary :24
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      716.635 usec         0.045 MB/s
+       128 bytes     1438.749 usec         0.178 MB/s
+      1024 bytes     1356.987 usec         1.509 MB/s
+      8192 bytes        2.170 usec      7550.996 MB/s
+     65536 bytes     2155.151 usec        60.818 MB/s
+    524288 bytes     1436.599 usec       729.902 MB/s
+   4194304 bytes      709.101 usec     11829.918 MB/s
+  33554432 bytes     1356.052 usec     49488.418 MB/s
+
+  Binomial :32
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      107.640 usec         0.297 MB/s
+       128 bytes       35.816 usec         7.148 MB/s
+      1024 bytes      143.893 usec        14.233 MB/s
+      8192 bytes       43.778 usec       374.248 MB/s
+     65536 bytes       72.007 usec      1820.274 MB/s
+    524288 bytes      119.828 usec      8750.659 MB/s
+   4194304 bytes       35.521 usec    236160.852 MB/s
+  33554432 bytes      113.066 usec    593538.533 MB/s
+
+Binry :32
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      103.594 usec         0.309 MB/s
+       128 bytes       71.952 usec         3.558 MB/s
+      1024 bytes       35.805 usec        57.198 MB/s
+      8192 bytes       83.840 usec       195.420 MB/s
+     65536 bytes       99.831 usec      1312.944 MB/s
+    524288 bytes       36.004 usec     29123.590 MB/s
+   4194304 bytes       83.497 usec    100465.538 MB/s
+  33554432 bytes       63.820 usec   1051538.628 MB/s
+
+Linear :32
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      107.622 usec         0.297 MB/s
+       128 bytes      131.824 usec         1.942 MB/s
+      1024 bytes       71.791 usec        28.527 MB/s
+      8192 bytes       71.646 usec       228.679 MB/s
+     65536 bytes      496.634 usec       263.921 MB/s
+    524288 bytes     7052.474 usec       148.682 MB/s
+   4194304 bytes    69973.252 usec       119.883 MB/s
+  33554432 bytes   650152.475 usec       103.220 MB/s
+
+
+Binomial :32
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes     1433.016 usec         0.022 MB/s
+       128 bytes     1516.798 usec         0.169 MB/s
+      1024 bytes     1917.421 usec         1.068 MB/s
+      8192 bytes     1356.644 usec        12.077 MB/s
+     65536 bytes      957.346 usec       136.912 MB/s
+    524288 bytes     2397.160 usec       437.424 MB/s
+   4194304 bytes     1671.054 usec      5019.949 MB/s
+  33554432 bytes     2156.877 usec     31113.901 MB/s
+
+Linear :32
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      635.996 usec         0.050 MB/s
+       128 bytes     1436.992 usec         0.178 MB/s
+      1024 bytes     2156.130 usec         0.950 MB/s
+      8192 bytes     1433.154 usec        11.432 MB/s
+     65536 bytes     1419.140 usec        92.360 MB/s
+    524288 bytes     7313.520 usec       143.375 MB/s
+   4194304 bytes    66271.434 usec       126.580 MB/s
+  33554432 bytes   650152.475 usec       103.220 MB/s
+Binary :32
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes     1436.827 usec         0.022 MB/s
+       128 bytes     1439.057 usec         0.178 MB/s
+      1024 bytes     1518.959 usec         1.348 MB/s
+      8192 bytes     1600.166 usec        10.239 MB/s
+     65536 bytes     2160.386 usec        60.671 MB/s
+    524288 bytes     2156.208 usec       486.306 MB/s
+   4194304 bytes     1430.189 usec      5865.384 MB/s
+  33554432 bytes     1436.268 usec     46724.484 MB/s
+
+Binomial :40
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.264 usec       121.399 MB/s
+       128 bytes        0.259 usec       986.646 MB/s
+      1024 bytes        0.255 usec      8037.424 MB/s
+      8192 bytes        0.259 usec     63151.890 MB/s
+     65536 bytes        0.314 usec    417775.341 MB/s
+    524288 bytes        0.458 usec   2289007.448 MB/s
+   4194304 bytes        1.168 usec   7183349.675 MB/s
+  33554432 bytes        5.230 usec  12831871.152 MB/s
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      107.810 usec         0.297 MB/s
+       128 bytes       35.884 usec         7.134 MB/s
+      1024 bytes      107.772 usec        19.003 MB/s
+      8192 bytes       35.828 usec       457.298 MB/s
+     65536 bytes      107.834 usec      1215.498 MB/s
+    524288 bytes       43.550 usec     24077.777 MB/s
+   4194304 bytes       79.658 usec    105307.635 MB/s
+  33554432 bytes       79.823 usec    840720.537 MB/s
+
+Binry :40
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.377 usec        84.971 MB/s
+       128 bytes        0.369 usec       692.854 MB/s
+      1024 bytes        0.369 usec      5551.550 MB/s
+      8192 bytes        0.386 usec     42465.178 MB/s
+     65536 bytes        0.406 usec    323233.120 MB/s
+    524288 bytes        0.544 usec   1928919.368 MB/s
+   4194304 bytes        0.401 usec  20932167.525 MB/s
+  33554432 bytes        5.609 usec  11964838.362 MB/s
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes       71.634 usec         0.447 MB/s
+       128 bytes       71.822 usec         3.564 MB/s
+      1024 bytes       71.833 usec        28.511 MB/s
+      8192 bytes       71.833 usec       228.086 MB/s
+     65536 bytes       71.846 usec      1824.342 MB/s
+    524288 bytes       39.866 usec     26302.242 MB/s
+   4194304 bytes       79.683 usec    105275.137 MB/s
+  33554432 bytes       71.829 usec    934283.559 MB/s
+
+Linear :40
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes        0.962 usec        33.254 MB/s
+       128 bytes        0.984 usec       260.112 MB/s
+      1024 bytes        1.227 usec      1668.671 MB/s
+      8192 bytes        3.382 usec      4844.600 MB/s
+     65536 bytes       57.024 usec      2298.544 MB/s
+    524288 bytes      507.732 usec      2065.216 MB/s
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes      107.809 usec         0.297 MB/s
+       128 bytes       59.850 usec         4.277 MB/s
+      1024 bytes      119.927 usec        17.077 MB/s
+      8192 bytes       59.776 usec       274.088 MB/s
+     65536 bytes      482.103 usec       271.876 MB/s
+   4194304 bytes     8586.361 usec       976.969 MB/s
+    524288 bytes     7752.814 usec       135.251 MB/s
+  33554432 bytes    71386.063 usec       940.084 MB/s
+   4194304 bytes    71256.692 usec       117.724 MB/s
+
+Binomial :40
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes     2395.731 usec         0.013 MB/s
+       128 bytes     3120.107 usec         0.082 MB/s
+      1024 bytes     2876.481 usec         0.712 MB/s
+      8192 bytes     1915.070 usec         8.555 MB/s
+     65536 bytes     2159.656 usec        60.691 MB/s
+    524288 bytes     2636.086 usec       397.778 MB/s
+   4194304 bytes     2632.317 usec      3186.777 MB/s
+  33554432 bytes     1916.369 usec     35018.756 MB/s
+
+Linear :40
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes     3596.291 usec         0.009 MB/s
+       128 bytes     2875.095 usec         0.089 MB/s
+      1024 bytes     3115.343 usec         0.657 MB/s
+      8192 bytes     2632.702 usec         6.223 MB/s
+     65536 bytes     2613.494 usec        50.152 MB/s
+    524288 bytes    17560.803 usec        59.711 MB/s
+   4194304 bytes   106383.099 usec        78.853 MB/s
+  33554432 bytes  1082375.413 usec        62.001 MB/s
+Binary :40
+
+    message size      transfertime  duplex bandwidth per process and neighbor
+        16 bytes     1831.558 usec         0.017 MB/s
+       128 bytes     1755.743 usec         0.146 MB/s
+      1024 bytes     2315.580 usec         0.884 MB/s
+      8192 bytes     2719.413 usec         6.025 MB/s
+     65536 bytes     2635.889 usec        49.726 MB/s
+    524288 bytes     2629.358 usec       398.795 MB/s
+   4194304 bytes     1429.225 usec      5869.340 MB/s
+  33554432 bytes     2875.868 usec     23335.171 MB/s
