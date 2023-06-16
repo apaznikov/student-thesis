@@ -1,0 +1,1070 @@
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.603 ms, 1659 ops/s
+	Run...             OK 0.443 ms, 2256 ops/s
+	Run...             OK 0.413 ms, 2424 ops/s
+	Run...             OK 0.406 ms, 2466 ops/s
+	Run...             OK 0.463 ms, 2161 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000 1 5 0.465 2149
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.600 ms, 1668 ops/s
+	Run...             OK 0.514 ms, 1947 ops/s
+	Run...             OK 0.553 ms, 1810 ops/s
+	Run...             OK 0.506 ms, 1979 ops/s
+	Run...             OK 0.539 ms, 1854 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000 2 5 0.542 1845
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.820 ms, 1219 ops/s
+	Run...             OK 0.609 ms, 1644 ops/s
+	Run...             OK 0.585 ms, 1710 ops/s
+	Run...             OK 0.511 ms, 1957 ops/s
+	Run...             OK 0.495 ms, 2022 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000 4 5 0.604 1656
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 1.674 ms, 598 ops/s
+	Run...             OK 0.631 ms, 1586 ops/s
+	Run...             OK 0.940 ms, 1064 ops/s
+	Run...             OK 1.021 ms, 980 ops/s
+	Run...             OK 1.574 ms, 636 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000 8 5 1.168 857
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 7.537 ms, 133 ops/s
+	Run...             OK 3.749 ms, 267 ops/s
+	Run...             OK 1.542 ms, 649 ops/s
+	Run...             OK 1.721 ms, 582 ops/s
+	Run...             OK 1.797 ms, 557 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000 16 5 3.269 306
+
+
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 5.479 ms, 1826 ops/s
+	Run...             OK 4.569 ms, 2189 ops/s
+	Run...             OK 4.550 ms, 2199 ops/s
+	Run...             OK 4.555 ms, 2196 ops/s
+	Run...             OK 4.670 ms, 2142 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 10000 1 5 4.765 2099
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 3.729 ms, 2682 ops/s
+	Run...             OK 2.901 ms, 3447 ops/s
+	Run...             OK 7.251 ms, 1380 ops/s
+	Run...             OK 4.029 ms, 2483 ops/s
+	Run...             OK 3.321 ms, 3011 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 10000 2 5 4.246 2355
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 7.437 ms, 1345 ops/s
+	Run...             OK 5.073 ms, 1972 ops/s
+	Run...             OK 6.871 ms, 1456 ops/s
+	Run...             OK 4.597 ms, 2176 ops/s
+	Run...             OK 4.514 ms, 2216 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 10000 4 5 5.698 1755
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 6.446 ms, 1552 ops/s
+	Run...             OK 5.155 ms, 1940 ops/s
+	Run...             OK 4.862 ms, 2057 ops/s
+	Run...             OK 11.784 ms, 849 ops/s
+	Run...             OK 4.395 ms, 2276 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 10000 8 5 6.528 1532
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 35.778 ms, 280 ops/s
+	Run...             OK 7.616 ms, 1314 ops/s
+	Run...             OK 4.565 ms, 2191 ops/s
+	Run...             OK 4.558 ms, 2194 ops/s
+	Run...             OK 4.855 ms, 2060 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 10000 16 5 11.474 872
+
+
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 64.573 ms, 1549 ops/s
+	Run...             OK 62.608 ms, 1598 ops/s
+	Run...             OK 51.651 ms, 1937 ops/s
+	Run...             OK 51.887 ms, 1928 ops/s
+	Run...             OK 52.095 ms, 1920 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 100000 1 5 56.563 1768
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 60.226 ms, 1661 ops/s
+	Run...             OK 51.743 ms, 1933 ops/s
+	Run...             OK 38.938 ms, 2569 ops/s
+	Run...             OK 49.517 ms, 2020 ops/s
+	Run...             OK 39.906 ms, 2506 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 100000 2 5 48.066 2081
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 56.983 ms, 1755 ops/s
+	Run...             OK 51.294 ms, 1950 ops/s
+	Run...             OK 41.218 ms, 2427 ops/s
+	Run...             OK 44.800 ms, 2233 ops/s
+	Run...             OK 40.481 ms, 2471 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 100000 4 5 46.955 2130
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 132.683 ms, 754 ops/s
+	Run...             OK 70.808 ms, 1413 ops/s
+	Run...             OK 76.387 ms, 1310 ops/s
+	Run...             OK 76.167 ms, 1313 ops/s
+	Run...             OK 76.876 ms, 1301 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 100000 8 5 86.584 1155
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 209.100 ms, 479 ops/s
+	Run...             OK 89.757 ms, 1115 ops/s
+	Run...             OK 256.970 ms, 390 ops/s
+	Run...             OK 91.365 ms, 1095 ops/s
+	Run...             OK 136.872 ms, 731 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 100000 16 5 156.813 638
+
+
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 157.461 ms, 1271 ops/s
+	Run...             OK 151.380 ms, 1322 ops/s
+	Run...             OK 145.915 ms, 1371 ops/s
+	Run...             OK 132.563 ms, 1509 ops/s
+	Run...             OK 134.452 ms, 1488 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 200000 1 5 144.354 1386
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 117.620 ms, 1701 ops/s
+	Run...             OK 80.350 ms, 2490 ops/s
+	Run...             OK 79.984 ms, 2501 ops/s
+	Run...             OK 83.334 ms, 2400 ops/s
+	Run...             OK 102.344 ms, 1955 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 200000 2 5 92.726 2157
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 111.059 ms, 1801 ops/s
+	Run...             OK 89.319 ms, 2240 ops/s
+	Run...             OK 89.894 ms, 2225 ops/s
+	Run...             OK 79.460 ms, 2517 ops/s
+	Run...             OK 84.180 ms, 2376 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 200000 4 5 90.783 2204
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 310.454 ms, 645 ops/s
+	Run...             OK 156.109 ms, 1282 ops/s
+	Run...             OK 138.620 ms, 1443 ops/s
+	Run...             OK 176.652 ms, 1133 ops/s
+	Run...             OK 301.361 ms, 664 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 200000 8 5 216.639 924
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 336.705 ms, 594 ops/s
+	Run...             OK 300.025 ms, 667 ops/s
+	Run...             OK 326.469 ms, 613 ops/s
+	Run...             OK 264.420 ms, 757 ops/s
+	Run...             OK 297.307 ms, 673 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 200000 16 5 304.985 656
+
+
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 365.427 ms, 1095 ops/s
+	Run...             OK 328.979 ms, 1216 ops/s
+	Run...             OK 326.293 ms, 1226 ops/s
+	Run...             OK 362.747 ms, 1103 ops/s
+	Run...             OK 329.681 ms, 1214 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 400000 1 5 342.626 1168
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 271.658 ms, 1473 ops/s
+	Run...             OK 197.039 ms, 2031 ops/s
+	Run...             OK 240.598 ms, 1663 ops/s
+	Run...             OK 193.153 ms, 2071 ops/s
+	Run...             OK 185.033 ms, 2162 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 400000 2 5 217.496 1840
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 214.037 ms, 1869 ops/s
+	Run...             OK 168.059 ms, 2381 ops/s
+	Run...             OK 160.495 ms, 2493 ops/s
+	Run...             OK 161.907 ms, 2471 ops/s
+	Run...             OK 182.342 ms, 2194 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 400000 4 5 177.368 2256
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 380.592 ms, 1051 ops/s
+	Run...             OK 329.343 ms, 1215 ops/s
+	Run...             OK 345.562 ms, 1158 ops/s
+	Run...             OK 433.924 ms, 922 ops/s
+	Run...             OK 337.428 ms, 1186 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 400000 8 5 365.370 1095
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 690.461 ms, 580 ops/s
+	Run...             OK 516.145 ms, 775 ops/s
+	Run...             OK 536.693 ms, 746 ops/s
+	Run...             OK 497.828 ms, 804 ops/s
+	Run...             OK 657.964 ms, 608 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 400000 16 5 579.818 690
+
+
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 836.003 ms, 957 ops/s
+	Run...             OK 773.149 ms, 1035 ops/s
+	Run...             OK 758.519 ms, 1055 ops/s
+	Run...             OK 795.480 ms, 1006 ops/s
+	Run...             OK 823.707 ms, 972 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 800000 1 5 797.371 1004
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 621.163 ms, 1288 ops/s
+	Run...             OK 538.808 ms, 1485 ops/s
+	Run...             OK 530.013 ms, 1510 ops/s
+	Run...             OK 534.829 ms, 1496 ops/s
+	Run...             OK 551.316 ms, 1452 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 800000 2 5 555.226 1441
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 461.586 ms, 1734 ops/s
+	Run...             OK 383.438 ms, 2087 ops/s
+	Run...             OK 350.100 ms, 2286 ops/s
+	Run...             OK 401.193 ms, 1995 ops/s
+	Run...             OK 379.610 ms, 2108 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 800000 4 5 395.185 2025
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 819.988 ms, 976 ops/s
+	Run...             OK 727.110 ms, 1101 ops/s
+	Run...             OK 797.113 ms, 1004 ops/s
+	Run...             OK 905.399 ms, 884 ops/s
+	Run...             OK 649.869 ms, 1232 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 800000 8 5 779.896 1026
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1791.859 ms, 447 ops/s
+	Run...             OK 1354.892 ms, 591 ops/s
+	Run...             OK 1413.098 ms, 567 ops/s
+	Run...             OK 1740.645 ms, 460 ops/s
+	Run...             OK 1535.649 ms, 521 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 800000 16 5 1567.229 511
+
+
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1190.874 ms, 840 ops/s
+	Run...             OK 1219.777 ms, 820 ops/s
+	Run...             OK 1132.768 ms, 883 ops/s
+	Run...             OK 1128.476 ms, 887 ops/s
+	Run...             OK 1117.265 ms, 896 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000000 1 5 1157.832 864
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 869.931 ms, 1150 ops/s
+	Run...             OK 784.973 ms, 1274 ops/s
+	Run...             OK 756.785 ms, 1322 ops/s
+	Run...             OK 804.052 ms, 1244 ops/s
+	Run...             OK 807.527 ms, 1239 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000000 2 5 804.654 1243
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 704.905 ms, 1419 ops/s
+	Run...             OK 564.498 ms, 1772 ops/s
+	Run...             OK 578.575 ms, 1729 ops/s
+	Run...             OK 617.932 ms, 1619 ops/s
+	Run...             OK 615.212 ms, 1626 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000000 4 5 616.225 1623
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1211.435 ms, 826 ops/s
+	Run...             OK 999.744 ms, 1001 ops/s
+	Run...             OK 1063.251 ms, 941 ops/s
+	Run...             OK 949.254 ms, 1054 ops/s
+	Run...             OK 1052.372 ms, 951 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000000 8 5 1055.211 948
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2493.812 ms, 401 ops/s
+	Run...             OK 2418.246 ms, 414 ops/s
+	Run...             OK 1636.698 ms, 611 ops/s
+	Run...             OK 2116.331 ms, 473 ops/s
+	Run...             OK 2174.124 ms, 460 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1000000 16 5 2167.842 462
+
+
+Test: ArrayInsertTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 2098.031 ms, 715 ops/s
+	Run...             OK 1974.087 ms, 760 ops/s
+	Run...             OK 1918.857 ms, 782 ops/s
+	Run...             OK 1926.780 ms, 779 ops/s
+	Run...             OK 1938.822 ms, 774 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1500000 1 5 1971.316 761
+
+
+Test: ArrayInsertTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 1382.544 ms, 1085 ops/s
+	Run...             OK 1252.094 ms, 1198 ops/s
+	Run...             OK 1318.804 ms, 1138 ops/s
+	Run...             OK 1246.745 ms, 1204 ops/s
+	Run...             OK 1336.190 ms, 1123 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1500000 2 5 1307.276 1148
+
+
+Test: ArrayInsertTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 1125.981 ms, 1333 ops/s
+	Run...             OK 981.359 ms, 1529 ops/s
+	Run...             OK 1006.536 ms, 1491 ops/s
+	Run...             OK 988.228 ms, 1518 ops/s
+	Run...             OK 1047.137 ms, 1433 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1500000 4 5 1029.848 1457
+
+
+Test: ArrayInsertTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 2020.780 ms, 743 ops/s
+	Run...             OK 1736.951 ms, 864 ops/s
+	Run...             OK 1752.713 ms, 856 ops/s
+	Run...             OK 1666.456 ms, 901 ops/s
+	Run...             OK 1838.167 ms, 817 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1500000 8 5 1803.013 832
+
+
+Test: ArrayInsertTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 3739.567 ms, 402 ops/s
+	Run...             OK 3016.245 ms, 498 ops/s
+	Run...             OK 3092.576 ms, 486 ops/s
+	Run...             OK 3017.596 ms, 498 ops/s
+	Run...             OK 3027.326 ms, 496 ops/s
+
+> ArrayInsertTest OREC_MIXED_SAFE OK 1500000 16 5 3178.662 472
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.188 ms, 5315 ops/s
+	Run...             OK 0.097 ms, 10264 ops/s
+	Run...             OK 0.100 ms, 10049 ops/s
+	Run...             OK 0.119 ms, 8373 ops/s
+	Run...             OK 0.090 ms, 11140 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000 1 5 0.119 8414
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.153 ms, 6534 ops/s
+	Run...             OK 0.109 ms, 9194 ops/s
+	Run...             OK 0.088 ms, 11313 ops/s
+	Run...             OK 0.142 ms, 7026 ops/s
+	Run...             OK 0.088 ms, 11381 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000 2 5 0.116 8614
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.138 ms, 7249 ops/s
+	Run...             OK 0.131 ms, 7617 ops/s
+	Run...             OK 0.125 ms, 7996 ops/s
+	Run...             OK 0.142 ms, 7019 ops/s
+	Run...             OK 0.134 ms, 7484 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000 4 5 0.134 7458
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.401 ms, 2495 ops/s
+	Run...             OK 0.343 ms, 2915 ops/s
+	Run...             OK 0.367 ms, 2722 ops/s
+	Run...             OK 0.414 ms, 2416 ops/s
+	Run...             OK 0.406 ms, 2465 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000 8 5 0.386 2590
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.815 ms, 1227 ops/s
+	Run...             OK 0.954 ms, 1049 ops/s
+	Run...             OK 0.815 ms, 1228 ops/s
+	Run...             OK 0.873 ms, 1146 ops/s
+	Run...             OK 0.723 ms, 1383 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000 16 5 0.836 1197
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 0.175 ms, 57003 ops/s
+	Run...             OK 0.155 ms, 64583 ops/s
+	Run...             OK 0.178 ms, 56178 ops/s
+	Run...             OK 0.156 ms, 64175 ops/s
+	Run...             OK 0.181 ms, 55151 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 10000 1 5 0.169 59142
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 0.384 ms, 26041 ops/s
+	Run...             OK 0.169 ms, 59285 ops/s
+	Run...             OK 0.152 ms, 65992 ops/s
+	Run...             OK 0.147 ms, 68159 ops/s
+	Run...             OK 0.141 ms, 70804 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 10000 2 5 0.198 50394
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 0.163 ms, 61190 ops/s
+	Run...             OK 0.232 ms, 43086 ops/s
+	Run...             OK 0.178 ms, 56100 ops/s
+	Run...             OK 0.145 ms, 68893 ops/s
+	Run...             OK 0.200 ms, 50111 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 10000 4 5 0.184 54437
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 0.476 ms, 21027 ops/s
+	Run...             OK 0.357 ms, 28012 ops/s
+	Run...             OK 0.470 ms, 21291 ops/s
+	Run...             OK 0.403 ms, 24788 ops/s
+	Run...             OK 0.327 ms, 30543 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 10000 8 5 0.407 24593
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 0.825 ms, 12123 ops/s
+	Run...             OK 0.798 ms, 12533 ops/s
+	Run...             OK 0.947 ms, 10555 ops/s
+	Run...             OK 0.729 ms, 13715 ops/s
+	Run...             OK 2.195 ms, 4556 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 10000 16 5 1.099 9100
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 0.653 ms, 153086 ops/s
+	Run...             OK 0.784 ms, 127546 ops/s
+	Run...             OK 0.531 ms, 188399 ops/s
+	Run...             OK 0.563 ms, 177766 ops/s
+	Run...             OK 0.601 ms, 166425 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 100000 1 5 0.626 159670
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 0.433 ms, 230768 ops/s
+	Run...             OK 0.416 ms, 240354 ops/s
+	Run...             OK 0.412 ms, 242768 ops/s
+	Run...             OK 0.405 ms, 246931 ops/s
+	Run...             OK 0.426 ms, 234984 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 100000 2 5 0.418 239025
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 1.092 ms, 91593 ops/s
+	Run...             OK 0.689 ms, 145228 ops/s
+	Run...             OK 1.497 ms, 66790 ops/s
+	Run...             OK 0.354 ms, 282094 ops/s
+	Run...             OK 0.439 ms, 227720 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 100000 4 5 0.814 122814
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 0.609 ms, 164145 ops/s
+	Run...             OK 0.738 ms, 135518 ops/s
+	Run...             OK 1.323 ms, 75600 ops/s
+	Run...             OK 3.951 ms, 25311 ops/s
+	Run...             OK 1.959 ms, 51039 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 100000 8 5 1.716 58275
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 3.273 ms, 30552 ops/s
+	Run...             OK 0.741 ms, 134874 ops/s
+	Run...             OK 0.721 ms, 138651 ops/s
+	Run...             OK 0.960 ms, 104214 ops/s
+	Run...             OK 0.860 ms, 116216 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 100000 16 5 1.311 76268
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1.087 ms, 184053 ops/s
+	Run...             OK 1.308 ms, 152859 ops/s
+	Run...             OK 1.211 ms, 165167 ops/s
+	Run...             OK 1.127 ms, 177440 ops/s
+	Run...             OK 1.205 ms, 165963 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 200000 1 5 1.188 168402
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 0.967 ms, 206802 ops/s
+	Run...             OK 0.956 ms, 209129 ops/s
+	Run...             OK 0.871 ms, 229690 ops/s
+	Run...             OK 0.854 ms, 234237 ops/s
+	Run...             OK 0.707 ms, 282697 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 200000 2 5 0.871 229594
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 0.784 ms, 254977 ops/s
+	Run...             OK 0.801 ms, 249601 ops/s
+	Run...             OK 1.246 ms, 160499 ops/s
+	Run...             OK 0.520 ms, 384438 ops/s
+	Run...             OK 0.465 ms, 430038 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 200000 4 5 0.763 261979
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1.049 ms, 190586 ops/s
+	Run...             OK 0.799 ms, 250291 ops/s
+	Run...             OK 0.935 ms, 213905 ops/s
+	Run...             OK 1.045 ms, 191411 ops/s
+	Run...             OK 0.900 ms, 222169 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 200000 8 5 0.946 211482
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 0.941 ms, 212653 ops/s
+	Run...             OK 1.800 ms, 111122 ops/s
+	Run...             OK 1.136 ms, 176033 ops/s
+	Run...             OK 1.150 ms, 173855 ops/s
+	Run...             OK 1.378 ms, 145182 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 200000 16 5 1.281 156142
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2.064 ms, 193826 ops/s
+	Run...             OK 2.311 ms, 173085 ops/s
+	Run...             OK 2.185 ms, 183077 ops/s
+	Run...             OK 2.143 ms, 186624 ops/s
+	Run...             OK 2.319 ms, 172495 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 400000 1 5 2.204 181458
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1.648 ms, 242710 ops/s
+	Run...             OK 1.304 ms, 306766 ops/s
+	Run...             OK 1.273 ms, 314239 ops/s
+	Run...             OK 1.283 ms, 311707 ops/s
+	Run...             OK 1.202 ms, 332789 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 400000 2 5 1.342 298057
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1.318 ms, 303594 ops/s
+	Run...             OK 1.101 ms, 363161 ops/s
+	Run...             OK 1.449 ms, 276128 ops/s
+	Run...             OK 0.992 ms, 403371 ops/s
+	Run...             OK 1.076 ms, 371797 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 400000 4 5 1.187 336979
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1.558 ms, 256742 ops/s
+	Run...             OK 1.331 ms, 300540 ops/s
+	Run...             OK 1.126 ms, 355113 ops/s
+	Run...             OK 1.250 ms, 319966 ops/s
+	Run...             OK 1.150 ms, 347685 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 400000 8 5 1.283 311724
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1.308 ms, 305789 ops/s
+	Run...             OK 2.223 ms, 179960 ops/s
+	Run...             OK 2.461 ms, 162509 ops/s
+	Run...             OK 4.470 ms, 89490 ops/s
+	Run...             OK 1.766 ms, 226507 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 400000 16 5 2.446 163560
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 4.884 ms, 163817 ops/s
+	Run...             OK 4.591 ms, 174269 ops/s
+	Run...             OK 4.602 ms, 173826 ops/s
+	Run...             OK 4.797 ms, 166780 ops/s
+	Run...             OK 4.380 ms, 182637 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 800000 1 5 4.651 172018
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2.688 ms, 297673 ops/s
+	Run...             OK 3.035 ms, 263626 ops/s
+	Run...             OK 3.344 ms, 239220 ops/s
+	Run...             OK 2.611 ms, 306437 ops/s
+	Run...             OK 2.083 ms, 384089 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 800000 2 5 2.752 290702
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2.009 ms, 398304 ops/s
+	Run...             OK 2.035 ms, 393079 ops/s
+	Run...             OK 2.527 ms, 316567 ops/s
+	Run...             OK 1.725 ms, 463707 ops/s
+	Run...             OK 1.919 ms, 416787 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 800000 4 5 2.043 391561
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2.047 ms, 390885 ops/s
+	Run...             OK 3.512 ms, 227774 ops/s
+	Run...             OK 1.616 ms, 495141 ops/s
+	Run...             OK 1.737 ms, 460612 ops/s
+	Run...             OK 2.399 ms, 333424 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 800000 8 5 2.262 353645
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2.618 ms, 305635 ops/s
+	Run...             OK 2.412 ms, 331674 ops/s
+	Run...             OK 1.997 ms, 400661 ops/s
+	Run...             OK 3.994 ms, 200294 ops/s
+	Run...             OK 2.038 ms, 392543 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 800000 16 5 2.612 306318
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 5.353 ms, 186817 ops/s
+	Run...             OK 5.525 ms, 180990 ops/s
+	Run...             OK 5.417 ms, 184593 ops/s
+	Run...             OK 5.389 ms, 185557 ops/s
+	Run...             OK 5.448 ms, 183557 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000000 1 5 5.426 184282
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 3.197 ms, 312748 ops/s
+	Run...             OK 4.372 ms, 228738 ops/s
+	Run...             OK 3.983 ms, 251098 ops/s
+	Run...             OK 3.855 ms, 259384 ops/s
+	Run...             OK 3.641 ms, 274681 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000000 2 5 3.810 262500
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2.360 ms, 423647 ops/s
+	Run...             OK 4.019 ms, 248827 ops/s
+	Run...             OK 1.560 ms, 640948 ops/s
+	Run...             OK 1.979 ms, 505350 ops/s
+	Run...             OK 2.193 ms, 456001 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000000 4 5 2.422 412838
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2.302 ms, 434497 ops/s
+	Run...             OK 2.444 ms, 409208 ops/s
+	Run...             OK 2.309 ms, 433068 ops/s
+	Run...             OK 2.303 ms, 434247 ops/s
+	Run...             OK 1.900 ms, 526425 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000000 8 5 2.251 444176
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 3.175 ms, 314970 ops/s
+	Run...             OK 2.355 ms, 424684 ops/s
+	Run...             OK 2.702 ms, 370124 ops/s
+	Run...             OK 2.633 ms, 379857 ops/s
+	Run...             OK 2.444 ms, 409246 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1000000 16 5 2.661 375729
+
+
+Test: ArraySumTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 8.186 ms, 183237 ops/s
+	Run...             OK 6.359 ms, 235881 ops/s
+	Run...             OK 7.998 ms, 187556 ops/s
+	Run...             OK 9.129 ms, 164314 ops/s
+	Run...             OK 9.191 ms, 163198 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1500000 1 5 8.173 183540
+
+
+Test: ArraySumTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 4.830 ms, 310545 ops/s
+	Run...             OK 5.407 ms, 277395 ops/s
+	Run...             OK 5.179 ms, 289622 ops/s
+	Run...             OK 4.142 ms, 362133 ops/s
+	Run...             OK 5.274 ms, 284427 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1500000 2 5 4.967 302021
+
+
+Test: ArraySumTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 3.043 ms, 492873 ops/s
+	Run...             OK 5.690 ms, 263613 ops/s
+	Run...             OK 5.329 ms, 281494 ops/s
+	Run...             OK 3.301 ms, 454345 ops/s
+	Run...             OK 3.465 ms, 432863 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1500000 4 5 4.166 360075
+
+
+Test: ArraySumTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 5.733 ms, 261643 ops/s
+	Run...             OK 3.204 ms, 468179 ops/s
+	Run...             OK 2.073 ms, 723443 ops/s
+	Run...             OK 2.843 ms, 527547 ops/s
+	Run...             OK 2.364 ms, 634472 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1500000 8 5 3.244 462453
+
+
+Test: ArraySumTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 4.366 ms, 343563 ops/s
+	Run...             OK 2.959 ms, 507014 ops/s
+	Run...             OK 3.259 ms, 460307 ops/s
+	Run...             OK 3.694 ms, 406105 ops/s
+	Run...             OK 2.733 ms, 548876 ops/s
+
+> ArraySumTest OREC_MIXED_SAFE OK 1500000 16 5 3.402 440925
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 3.336 ms, 300 ops/s
+	Run...             OK 4.073 ms, 246 ops/s
+	Run...             OK 4.169 ms, 240 ops/s
+	Run...             OK 4.339 ms, 231 ops/s
+	Run...             OK 4.405 ms, 228 ops/s
+
+> HashInsertTest OREC_MIXED_SAFE OK 1000 1 5 4.064 247
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 4.257 ms, 235 ops/s
+	Run...             OK 3.663 ms, 273 ops/s
+	Run...             OK 3.826 ms, 262 ops/s
+	Run...             OK 4.991 ms, 201 ops/s
+	Run...             OK 4.719 ms, 212 ops/s
+
+> HashInsertTest OREC_MIXED_SAFE OK 1000 2 5 4.291 234
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5

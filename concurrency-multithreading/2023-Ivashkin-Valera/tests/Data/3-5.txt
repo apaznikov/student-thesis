@@ -1,0 +1,198 @@
+
+#
+# HashInsert
+#
+
+# 1000
+HashInsertTest 1 1000 5
+HashInsertTest 2 1000 5
+HashInsertTest 4 1000 5
+HashInsertTest 8 1000 5
+HashInsertTest 16 1000 5
+
+# 10000
+HashInsertTest 1 10000 5
+HashInsertTest 2 10000 5
+HashInsertTest 4 10000 5
+HashInsertTest 8 10000 5
+HashInsertTest 16 10000 5
+
+# 100000
+HashInsertTest 1 100000 5
+HashInsertTest 2 100000 5
+HashInsertTest 4 100000 5
+HashInsertTest 8 100000 5
+HashInsertTest 16 100000 5
+
+# 200000
+HashInsertTest 1 200000 5
+HashInsertTest 2 200000 5
+HashInsertTest 4 200000 5
+HashInsertTest 8 200000 5
+HashInsertTest 16 200000 5
+
+
+# 400000
+HashInsertTest 1 400000 5
+HashInsertTest 2 400000 5
+HashInsertTest 4 400000 5
+HashInsertTest 8 400000 5
+HashInsertTest 16 400000 5
+
+
+# 800000
+HashInsertTest 1 800000 5
+HashInsertTest 2 800000 5
+HashInsertTest 4 800000 5
+HashInsertTest 8 800000 5
+HashInsertTest 16 800000 5
+
+
+# 1000000
+HashInsertTest 1 1000000 5
+HashInsertTest 2 1000000 5
+HashInsertTest 4 1000000 5
+HashInsertTest 8 1000000 5
+HashInsertTest 16 1000000 5
+
+# 2000000
+HashInsertTest 1 1500000 5
+HashInsertTest 2 1500000 5
+HashInsertTest 4 1500000 5
+HashInsertTest 8 1500000 5
+HashInsertTest 16 1500000 5
+
+
+
+
+
+
+
+#
+# ListInsert
+#
+ListInsertTest 1 1000 5
+ListInsertTest 2 1000 5
+ListInsertTest 4 1000 5
+ListInsertTest 8 1000 5
+ListInsertTest 16 1000 5
+
+ListInsertTest 1 10000 5
+ListInsertTest 2 10000 5
+ListInsertTest 4 10000 5
+ListInsertTest 8 10000 5
+ListInsertTest 16 10000 5
+
+ListInsertTest 1 100000 5
+ListInsertTest 2 100000 5
+ListInsertTest 4 100000 5
+ListInsertTest 8 100000 5
+ListInsertTest 16 100000 5
+
+ListInsertTest 1 200000 5
+ListInsertTest 2 200000 5
+ListInsertTest 4 200000 5
+ListInsertTest 8 200000 5
+ListInsertTest 16 200000 5
+
+ListInsertTest 1 400000 5
+ListInsertTest 2 400000 5
+ListInsertTest 4 400000 5
+ListInsertTest 8 400000 5
+ListInsertTest 16 400000 5
+
+ListInsertTest 1 800000 5
+ListInsertTest 2 800000 5
+ListInsertTest 4 800000 5
+ListInsertTest 8 800000 5
+ListInsertTest 16 800000 5
+
+ListInsertTest 1 1000000 5
+ListInsertTest 2 1000000 5
+ListInsertTest 4 1000000 5
+ListInsertTest 8 1000000 5
+ListInsertTest 16 1000000 5
+
+ListInsertTest 1 1500000 5
+ListInsertTest 2 1500000 5
+ListInsertTest 4 1500000 5
+ListInsertTest 8 1500000 5
+ListInsertTest 16 1500000 5
+
+
+
+
+
+
+
+
+#
+# TreeInsert
+#
+
+# 1000
+TreeInsertTest 1 1000 5
+TreeInsertTest 2 1000 5
+TreeInsertTest 4 1000 5
+TreeInsertTest 8 1000 5
+TreeInsertTest 16 1000 5
+
+# 10000
+TreeInsertTest 1 10000 5
+TreeInsertTest 2 10000 5
+TreeInsertTest 4 10000 5
+TreeInsertTest 8 10000 5
+TreeInsertTest 16 10000 5
+
+# 100000
+TreeInsertTest 1 100000 5
+TreeInsertTest 2 100000 5
+TreeInsertTest 4 100000 5
+TreeInsertTest 8 100000 5
+TreeInsertTest 16 100000 5
+
+# 200000
+TreeInsertTest 1 200000 5
+TreeInsertTest 2 200000 5
+TreeInsertTest 4 200000 5
+TreeInsertTest 8 200000 5
+TreeInsertTest 16 200000 5
+
+
+# 400000
+TreeInsertTest 1 400000 5
+TreeInsertTest 2 400000 5
+TreeInsertTest 4 400000 5
+TreeInsertTest 8 400000 5
+TreeInsertTest 16 400000 5
+
+
+# 800000
+TreeInsertTest 1 800000 5
+TreeInsertTest 2 800000 5
+TreeInsertTest 4 800000 5
+TreeInsertTest 8 800000 5
+TreeInsertTest 16 800000 5
+
+
+# 1000000
+TreeInsertTest 1 1000000 5
+TreeInsertTest 2 1000000 5
+TreeInsertTest 4 1000000 5
+TreeInsertTest 8 1000000 5
+TreeInsertTest 16 1000000 5
+
+
+# 1500000
+TreeInsertTest 1 1500000 5
+TreeInsertTest 2 1500000 5
+TreeInsertTest 4 1500000 5
+TreeInsertTest 8 1500000 5
+TreeInsertTest 16 1500000 5
+
+
+
+#
+# TreeRemove
+#
+

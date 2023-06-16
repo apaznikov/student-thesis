@@ -1,0 +1,1736 @@
+Test: HashInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.939 ms, 1065 ops/s
+	Run...             OK 0.667 ms, 1500 ops/s
+	Run...             OK 0.693 ms, 1443 ops/s
+	Run...             OK 0.649 ms, 1542 ops/s
+	Run...             OK 0.617 ms, 1622 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000 1 5 0.713 1403
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.835 ms, 1198 ops/s
+	Run...             OK 0.826 ms, 1211 ops/s
+	Run...             OK 0.758 ms, 1319 ops/s
+	Run...             OK 0.768 ms, 1303 ops/s
+	Run...             OK 0.902 ms, 1110 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000 2 5 0.818 1223
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.898 ms, 1114 ops/s
+	Run...             OK 0.883 ms, 1133 ops/s
+	Run...             OK 0.922 ms, 1085 ops/s
+	Run...             OK 0.875 ms, 1143 ops/s
+	Run...             OK 0.890 ms, 1124 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000 4 5 0.894 1119
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.989 ms, 1011 ops/s
+	Run...             OK 1.104 ms, 906 ops/s
+	Run...             OK 1.159 ms, 864 ops/s
+	Run...             OK 1.120 ms, 894 ops/s
+	Run...             OK 1.113 ms, 899 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000 8 5 1.097 912
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 1.290 ms, 776 ops/s
+	Run...             OK 1.122 ms, 892 ops/s
+	Run...             OK 1.223 ms, 818 ops/s
+	Run...             OK 8.623 ms, 116 ops/s
+	Run...             OK 2.998 ms, 334 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000 16 5 3.051 328
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 7.251 ms, 1380 ops/s
+	Run...             OK 6.768 ms, 1478 ops/s
+	Run...             OK 6.956 ms, 1438 ops/s
+	Run...             OK 7.441 ms, 1344 ops/s
+	Run...             OK 7.154 ms, 1398 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 10000 1 5 7.114 1406
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 7.805 ms, 1282 ops/s
+	Run...             OK 9.777 ms, 1023 ops/s
+	Run...             OK 10.538 ms, 949 ops/s
+	Run...             OK 11.968 ms, 836 ops/s
+	Run...             OK 12.493 ms, 801 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 10000 2 5 10.516 951
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 10.258 ms, 975 ops/s
+	Run...             OK 9.617 ms, 1040 ops/s
+	Run...             OK 10.202 ms, 981 ops/s
+	Run...             OK 8.869 ms, 1128 ops/s
+	Run...             OK 8.505 ms, 1176 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 10000 4 5 9.490 1054
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 14.204 ms, 705 ops/s
+	Run...             OK 8.147 ms, 1228 ops/s
+	Run...             OK 8.606 ms, 1163 ops/s
+	Run...             OK 10.354 ms, 966 ops/s
+	Run...             OK 8.620 ms, 1161 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 10000 8 5 9.986 1002
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 8.345 ms, 1199 ops/s
+	Run...             OK 24.058 ms, 416 ops/s
+	Run...             OK 19.992 ms, 501 ops/s
+	Run...             OK 9.933 ms, 1007 ops/s
+	Run...             OK 16.885 ms, 593 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 10000 16 5 15.843 632
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 91.838 ms, 1089 ops/s
+	Run...             OK 91.783 ms, 1090 ops/s
+	Run...             OK 89.009 ms, 1124 ops/s
+	Run...             OK 91.820 ms, 1090 ops/s
+	Run...             OK 90.103 ms, 1110 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 100000 1 5 90.910 1100
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 109.972 ms, 910 ops/s
+	Run...             OK 98.130 ms, 1020 ops/s
+	Run...             OK 91.945 ms, 1088 ops/s
+	Run...             OK 98.924 ms, 1011 ops/s
+	Run...             OK 99.153 ms, 1009 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 100000 2 5 99.625 1004
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 127.752 ms, 783 ops/s
+	Run...             OK 105.740 ms, 946 ops/s
+	Run...             OK 107.199 ms, 933 ops/s
+	Run...             OK 116.108 ms, 862 ops/s
+	Run...             OK 105.798 ms, 946 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 100000 4 5 112.519 889
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 263.622 ms, 380 ops/s
+	Run...             OK 275.428 ms, 364 ops/s
+	Run...             OK 233.084 ms, 430 ops/s
+	Run...             OK 304.341 ms, 329 ops/s
+	Run...             OK 235.010 ms, 426 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 100000 8 5 262.297 382
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 671.753 ms, 149 ops/s
+	Run...             OK 643.342 ms, 156 ops/s
+	Run...             OK 668.757 ms, 150 ops/s
+	Run...             OK 740.173 ms, 136 ops/s
+	Run...             OK 680.883 ms, 147 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 100000 16 5 680.981 147
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 218.638 ms, 915 ops/s
+	Run...             OK 229.951 ms, 870 ops/s
+	Run...             OK 235.620 ms, 849 ops/s
+	Run...             OK 229.433 ms, 872 ops/s
+	Run...             OK 259.562 ms, 771 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 200000 1 5 234.641 853
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 225.499 ms, 887 ops/s
+	Run...             OK 209.617 ms, 955 ops/s
+	Run...             OK 255.145 ms, 784 ops/s
+	Run...             OK 214.859 ms, 931 ops/s
+	Run...             OK 216.552 ms, 924 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 200000 2 5 224.334 892
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 295.220 ms, 678 ops/s
+	Run...             OK 242.274 ms, 826 ops/s
+	Run...             OK 222.603 ms, 899 ops/s
+	Run...             OK 233.413 ms, 857 ops/s
+	Run...             OK 216.267 ms, 925 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 200000 4 5 241.955 827
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 542.152 ms, 369 ops/s
+	Run...             OK 504.504 ms, 397 ops/s
+	Run...             OK 568.127 ms, 353 ops/s
+	Run...             OK 415.032 ms, 482 ops/s
+	Run...             OK 538.893 ms, 372 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 200000 8 5 513.742 390
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1063.913 ms, 188 ops/s
+	Run...             OK 1207.135 ms, 166 ops/s
+	Run...             OK 1260.065 ms, 159 ops/s
+	Run...             OK 1333.332 ms, 151 ops/s
+	Run...             OK 1048.504 ms, 191 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 200000 16 5 1182.590 170
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 486.796 ms, 822 ops/s
+	Run...             OK 546.196 ms, 733 ops/s
+	Run...             OK 526.301 ms, 761 ops/s
+	Run...             OK 524.040 ms, 764 ops/s
+	Run...             OK 543.124 ms, 737 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 400000 1 5 525.291 762
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 462.117 ms, 866 ops/s
+	Run...             OK 460.763 ms, 869 ops/s
+	Run...             OK 482.796 ms, 829 ops/s
+	Run...             OK 468.862 ms, 854 ops/s
+	Run...             OK 494.002 ms, 810 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 400000 2 5 473.708 845
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 508.410 ms, 787 ops/s
+	Run...             OK 487.840 ms, 820 ops/s
+	Run...             OK 505.668 ms, 792 ops/s
+	Run...             OK 496.298 ms, 806 ops/s
+	Run...             OK 505.132 ms, 792 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 400000 4 5 500.669 799
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1216.236 ms, 329 ops/s
+	Run...             OK 1012.428 ms, 396 ops/s
+	Run...             OK 1158.811 ms, 346 ops/s
+	Run...             OK 1349.714 ms, 297 ops/s
+	Run...             OK 1492.763 ms, 268 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 400000 8 5 1245.990 322
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2602.485 ms, 154 ops/s
+	Run...             OK 2706.073 ms, 148 ops/s
+	Run...             OK 2997.382 ms, 134 ops/s
+	Run...             OK 2806.735 ms, 143 ops/s
+	Run...             OK 2585.115 ms, 155 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 400000 16 5 2739.558 147
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1156.172 ms, 692 ops/s
+	Run...             OK 1267.943 ms, 631 ops/s
+	Run...             OK 1255.607 ms, 638 ops/s
+	Run...             OK 1304.308 ms, 614 ops/s
+	Run...             OK 1290.171 ms, 621 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 800000 1 5 1254.840 638
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1061.214 ms, 754 ops/s
+	Run...             OK 1057.453 ms, 757 ops/s
+	Run...             OK 1167.439 ms, 686 ops/s
+	Run...             OK 1184.564 ms, 676 ops/s
+	Run...             OK 1083.345 ms, 739 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 800000 2 5 1110.803 721
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1195.041 ms, 670 ops/s
+	Run...             OK 1229.797 ms, 651 ops/s
+	Run...             OK 1234.895 ms, 648 ops/s
+	Run...             OK 1238.667 ms, 646 ops/s
+	Run...             OK 1327.027 ms, 603 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 800000 4 5 1245.085 643
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 3146.320 ms, 255 ops/s
+	Run...             OK 3029.722 ms, 265 ops/s
+	Run...             OK 3092.249 ms, 259 ops/s
+	Run...             OK 3232.191 ms, 248 ops/s
+	Run...             OK 3266.245 ms, 245 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 800000 8 5 3153.346 254
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 6045.390 ms, 133 ops/s
+	Run...             OK 6365.133 ms, 126 ops/s
+	Run...             OK 6478.918 ms, 124 ops/s
+	Run...             OK 6184.589 ms, 130 ops/s
+	Run...             OK 6389.823 ms, 126 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 800000 16 5 6292.771 128
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1606.385 ms, 623 ops/s
+	Run...             OK 1769.887 ms, 566 ops/s
+	Run...             OK 1753.259 ms, 571 ops/s
+	Run...             OK 1769.300 ms, 566 ops/s
+	Run...             OK 1760.314 ms, 569 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000000 1 5 1731.829 578
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1538.875 ms, 650 ops/s
+	Run...             OK 1589.159 ms, 630 ops/s
+	Run...             OK 1676.806 ms, 597 ops/s
+	Run...             OK 1678.412 ms, 596 ops/s
+	Run...             OK 1597.082 ms, 627 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000000 2 5 1616.067 619
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1816.478 ms, 551 ops/s
+	Run...             OK 1890.249 ms, 530 ops/s
+	Run...             OK 1872.622 ms, 535 ops/s
+	Run...             OK 1870.111 ms, 535 ops/s
+	Run...             OK 1931.408 ms, 518 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000000 4 5 1876.173 533
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 4143.393 ms, 242 ops/s
+	Run...             OK 3770.332 ms, 266 ops/s
+	Run...             OK 3990.385 ms, 251 ops/s
+	Run...             OK 4399.955 ms, 228 ops/s
+	Run...             OK 4739.822 ms, 211 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000000 8 5 4208.778 238
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 9844.196 ms, 102 ops/s
+	Run...             OK 9003.717 ms, 112 ops/s
+	Run...             OK 9524.346 ms, 105 ops/s
+	Run...             OK 8459.893 ms, 119 ops/s
+	Run...             OK 8998.320 ms, 112 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1000000 16 5 9166.095 110
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 2796.744 ms, 537 ops/s
+	Run...             OK 2995.362 ms, 501 ops/s
+	Run...             OK 3038.566 ms, 494 ops/s
+	Run...             OK 3017.154 ms, 498 ops/s
+	Run...             OK 2947.184 ms, 509 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1500000 1 5 2959.002 507
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 2664.763 ms, 563 ops/s
+	Run...             OK 2629.045 ms, 571 ops/s
+	Run...             OK 2641.236 ms, 568 ops/s
+	Run...             OK 2722.921 ms, 551 ops/s
+	Run...             OK 2706.933 ms, 555 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1500000 2 5 2672.980 562
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 3001.994 ms, 500 ops/s
+	Run...             OK 3427.483 ms, 438 ops/s
+	Run...             OK 3212.951 ms, 467 ops/s
+	Run...             OK 3077.827 ms, 488 ops/s
+	Run...             OK 3117.912 ms, 482 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1500000 4 5 3167.633 474
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 7406.142 ms, 203 ops/s
+	Run...             OK 6960.726 ms, 216 ops/s
+	Run...             OK 7090.631 ms, 212 ops/s
+	Run...             OK 6874.729 ms, 219 ops/s
+	Run...             OK 7791.748 ms, 193 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1500000 8 5 7224.795 208
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 15133.976 ms, 100 ops/s
+	Run...             OK 14445.978 ms, 104 ops/s
+	Run...             OK 14306.098 ms, 105 ops/s
+	Run...             OK 14589.218 ms, 103 ops/s
+	Run...             OK 15319.155 ms, 98 ops/s
+
+> HashInsertTest TML_EAGER_SAFE OK 1500000 16 5 14758.885 102
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 10.997 ms, 91 ops/s
+	Run...             OK 2.698 ms, 371 ops/s
+	Run...             OK 2.700 ms, 371 ops/s
+	Run...             OK 2.306 ms, 434 ops/s
+	Run...             OK 2.667 ms, 375 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000 1 5 4.274 234
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 8.399 ms, 120 ops/s
+	Run...             OK 2.435 ms, 411 ops/s
+	Run...             OK 2.480 ms, 404 ops/s
+	Run...             OK 2.444 ms, 410 ops/s
+	Run...             OK 3.253 ms, 308 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000 2 5 3.802 264
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 7.102 ms, 141 ops/s
+	Run...             OK 10.595 ms, 95 ops/s
+	Run...             OK 2.640 ms, 379 ops/s
+	Run...             OK 2.603 ms, 385 ops/s
+	Run...             OK 2.566 ms, 390 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000 4 5 5.101 197
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 2.510 ms, 399 ops/s
+	Run...             OK 2.508 ms, 399 ops/s
+	Run...             OK 2.688 ms, 373 ops/s
+	Run...             OK 2.815 ms, 356 ops/s
+	Run...             OK 2.784 ms, 360 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000 8 5 2.661 376
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 3.429 ms, 292 ops/s
+	Run...             OK 2.314 ms, 433 ops/s
+	Run...             OK 27.270 ms, 37 ops/s
+	Run...             OK 2.623 ms, 382 ops/s
+	Run...             OK 2.523 ms, 397 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000 16 5 7.632 132
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 19.734 ms, 507 ops/s
+	Run...             OK 17.104 ms, 585 ops/s
+	Run...             OK 17.408 ms, 575 ops/s
+	Run...             OK 17.091 ms, 586 ops/s
+	Run...             OK 17.144 ms, 584 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 10000 1 5 17.696 566
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 22.675 ms, 442 ops/s
+	Run...             OK 20.791 ms, 481 ops/s
+	Run...             OK 19.582 ms, 511 ops/s
+	Run...             OK 22.106 ms, 453 ops/s
+	Run...             OK 24.614 ms, 407 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 10000 2 5 21.954 456
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 23.635 ms, 424 ops/s
+	Run...             OK 32.337 ms, 310 ops/s
+	Run...             OK 22.282 ms, 449 ops/s
+	Run...             OK 20.874 ms, 480 ops/s
+	Run...             OK 21.430 ms, 467 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 10000 4 5 24.112 415
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 22.625 ms, 442 ops/s
+	Run...             OK 25.038 ms, 400 ops/s
+	Run...             OK 30.288 ms, 331 ops/s
+	Run...             OK 46.417 ms, 216 ops/s
+	Run...             OK 37.188 ms, 269 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 10000 8 5 32.311 310
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 62.194 ms, 161 ops/s
+	Run...             OK 24.759 ms, 404 ops/s
+	Run...             OK 68.620 ms, 146 ops/s
+	Run...             OK 53.987 ms, 186 ops/s
+	Run...             OK 52.289 ms, 192 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 10000 16 5 52.370 191
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 194.063 ms, 516 ops/s
+	Run...             OK 183.168 ms, 546 ops/s
+	Run...             OK 183.470 ms, 546 ops/s
+	Run...             OK 184.026 ms, 544 ops/s
+	Run...             OK 181.278 ms, 552 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 100000 1 5 185.201 540
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 200.452 ms, 499 ops/s
+	Run...             OK 197.872 ms, 506 ops/s
+	Run...             OK 199.302 ms, 502 ops/s
+	Run...             OK 213.338 ms, 469 ops/s
+	Run...             OK 199.394 ms, 502 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 100000 2 5 202.072 495
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 238.153 ms, 420 ops/s
+	Run...             OK 241.124 ms, 415 ops/s
+	Run...             OK 235.863 ms, 424 ops/s
+	Run...             OK 228.057 ms, 439 ops/s
+	Run...             OK 248.846 ms, 402 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 100000 4 5 238.409 420
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 419.146 ms, 239 ops/s
+	Run...             OK 527.446 ms, 190 ops/s
+	Run...             OK 391.735 ms, 256 ops/s
+	Run...             OK 443.594 ms, 226 ops/s
+	Run...             OK 421.328 ms, 238 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 100000 8 5 440.650 227
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 783.556 ms, 128 ops/s
+	Run...             OK 869.296 ms, 116 ops/s
+	Run...             OK 1006.692 ms, 100 ops/s
+	Run...             OK 953.727 ms, 105 ops/s
+	Run...             OK 1020.294 ms, 99 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 100000 16 5 926.713 108
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 406.720 ms, 492 ops/s
+	Run...             OK 401.271 ms, 499 ops/s
+	Run...             OK 394.264 ms, 508 ops/s
+	Run...             OK 401.278 ms, 499 ops/s
+	Run...             OK 409.600 ms, 489 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 200000 1 5 402.626 497
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 425.924 ms, 470 ops/s
+	Run...             OK 423.857 ms, 472 ops/s
+	Run...             OK 421.394 ms, 475 ops/s
+	Run...             OK 426.217 ms, 470 ops/s
+	Run...             OK 416.207 ms, 481 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 200000 2 5 422.720 474
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 527.711 ms, 379 ops/s
+	Run...             OK 546.936 ms, 366 ops/s
+	Run...             OK 609.123 ms, 329 ops/s
+	Run...             OK 607.795 ms, 330 ops/s
+	Run...             OK 587.042 ms, 341 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 200000 4 5 575.721 348
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1099.875 ms, 182 ops/s
+	Run...             OK 842.551 ms, 238 ops/s
+	Run...             OK 988.905 ms, 203 ops/s
+	Run...             OK 981.820 ms, 204 ops/s
+	Run...             OK 998.710 ms, 201 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 200000 8 5 982.372 204
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 2195.822 ms, 92 ops/s
+	Run...             OK 2034.523 ms, 99 ops/s
+	Run...             OK 1991.527 ms, 101 ops/s
+	Run...             OK 1890.686 ms, 106 ops/s
+	Run...             OK 2081.670 ms, 97 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 200000 16 5 2038.846 99
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 881.317 ms, 454 ops/s
+	Run...             OK 871.352 ms, 460 ops/s
+	Run...             OK 870.195 ms, 460 ops/s
+	Run...             OK 852.295 ms, 470 ops/s
+	Run...             OK 841.786 ms, 476 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 400000 1 5 863.389 464
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 936.491 ms, 428 ops/s
+	Run...             OK 903.634 ms, 443 ops/s
+	Run...             OK 931.577 ms, 430 ops/s
+	Run...             OK 943.980 ms, 424 ops/s
+	Run...             OK 948.083 ms, 422 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 400000 2 5 932.753 429
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1192.021 ms, 336 ops/s
+	Run...             OK 1125.941 ms, 356 ops/s
+	Run...             OK 1054.392 ms, 380 ops/s
+	Run...             OK 1144.950 ms, 350 ops/s
+	Run...             OK 1161.647 ms, 345 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 400000 4 5 1135.790 353
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2480.529 ms, 162 ops/s
+	Run...             OK 2266.128 ms, 177 ops/s
+	Run...             OK 2102.023 ms, 191 ops/s
+	Run...             OK 2104.721 ms, 191 ops/s
+	Run...             OK 2170.117 ms, 185 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 400000 8 5 2224.704 180
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 3774.020 ms, 106 ops/s
+	Run...             OK 3592.174 ms, 112 ops/s
+	Run...             OK 5061.415 ms, 80 ops/s
+	Run...             OK 4687.522 ms, 86 ops/s
+	Run...             OK 4450.473 ms, 90 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 400000 16 5 4313.121 93
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1846.785 ms, 434 ops/s
+	Run...             OK 1831.718 ms, 437 ops/s
+	Run...             OK 1857.813 ms, 431 ops/s
+	Run...             OK 1868.717 ms, 429 ops/s
+	Run...             OK 1834.027 ms, 437 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 800000 1 5 1847.812 433
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2070.883 ms, 387 ops/s
+	Run...             OK 2038.850 ms, 393 ops/s
+	Run...             OK 2180.898 ms, 367 ops/s
+	Run...             OK 2031.070 ms, 394 ops/s
+	Run...             OK 2040.919 ms, 392 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 800000 2 5 2072.524 387
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2417.780 ms, 331 ops/s
+	Run...             OK 2393.675 ms, 335 ops/s
+	Run...             OK 2451.961 ms, 327 ops/s
+	Run...             OK 2387.845 ms, 336 ops/s
+	Run...             OK 2336.358 ms, 343 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 800000 4 5 2397.524 334
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 4440.977 ms, 181 ops/s
+	Run...             OK 4460.368 ms, 180 ops/s
+	Run...             OK 4950.795 ms, 162 ops/s
+	Run...             OK 5249.863 ms, 153 ops/s
+	Run...             OK 4921.383 ms, 163 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 800000 8 5 4804.677 167
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 9567.677 ms, 84 ops/s
+	Run...             OK 8963.926 ms, 90 ops/s
+	Run...             OK 9960.160 ms, 81 ops/s
+	Run...             OK 10315.754 ms, 78 ops/s
+	Run...             OK 10375.476 ms, 78 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 800000 16 5 9836.599 82
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2501.270 ms, 400 ops/s
+	Run...             OK 2502.476 ms, 400 ops/s
+	Run...             OK 2446.588 ms, 409 ops/s
+	Run...             OK 2460.504 ms, 407 ops/s
+	Run...             OK 2460.385 ms, 407 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000000 1 5 2474.244 405
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2690.972 ms, 372 ops/s
+	Run...             OK 2593.352 ms, 386 ops/s
+	Run...             OK 2642.112 ms, 379 ops/s
+	Run...             OK 2614.772 ms, 383 ops/s
+	Run...             OK 2699.418 ms, 371 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000000 2 5 2648.125 378
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 3239.187 ms, 309 ops/s
+	Run...             OK 3189.155 ms, 314 ops/s
+	Run...             OK 3235.280 ms, 310 ops/s
+	Run...             OK 3087.998 ms, 324 ops/s
+	Run...             OK 3277.325 ms, 306 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000000 4 5 3205.789 312
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 6563.256 ms, 153 ops/s
+	Run...             OK 6561.618 ms, 153 ops/s
+	Run...             OK 6144.426 ms, 163 ops/s
+	Run...             OK 5963.434 ms, 168 ops/s
+	Run...             OK 6085.077 ms, 165 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000000 8 5 6263.562 160
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 12213.478 ms, 82 ops/s
+	Run...             OK 11845.966 ms, 85 ops/s
+	Run...             OK 12780.743 ms, 79 ops/s
+	Run...             OK 13027.390 ms, 77 ops/s
+	Run...             OK 12189.991 ms, 83 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1000000 16 5 12411.514 81
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 3905.864 ms, 385 ops/s
+	Run...             OK 3883.544 ms, 387 ops/s
+	Run...             OK 3928.467 ms, 382 ops/s
+	Run...             OK 3929.308 ms, 382 ops/s
+	Run...             OK 3955.110 ms, 380 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1500000 1 5 3920.459 383
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 4346.882 ms, 346 ops/s
+	Run...             OK 4341.142 ms, 346 ops/s
+	Run...             OK 4297.584 ms, 350 ops/s
+	Run...             OK 4265.112 ms, 352 ops/s
+	Run...             OK 4344.282 ms, 346 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1500000 2 5 4319.000 348
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 5054.623 ms, 297 ops/s
+	Run...             OK 5113.702 ms, 294 ops/s
+	Run...             OK 5140.325 ms, 292 ops/s
+	Run...             OK 4933.983 ms, 305 ops/s
+	Run...             OK 4812.236 ms, 312 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1500000 4 5 5010.974 300
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 10690.000 ms, 141 ops/s
+	Run...             OK 9948.733 ms, 151 ops/s
+	Run...             OK 10080.649 ms, 149 ops/s
+	Run...             OK 10586.979 ms, 142 ops/s
+	Run...             OK 10120.920 ms, 149 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1500000 8 5 10285.456 146
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 19427.425 ms, 78 ops/s
+	Run...             OK 20209.952 ms, 75 ops/s
+	Run...             OK 19607.824 ms, 77 ops/s
+	Run...             OK 20362.812 ms, 74 ops/s
+	Run...             OK 20293.189 ms, 74 ops/s
+
+> ListInsertTest TML_EAGER_SAFE OK 1500000 16 5 19980.240 76
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 5.372 ms, 187 ops/s
+	Run...             OK 3.772 ms, 266 ops/s
+	Run...             OK 3.752 ms, 267 ops/s
+	Run...             OK 3.766 ms, 266 ops/s
+	Run...             OK 3.707 ms, 270 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000 1 5 4.074 246
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 5.143 ms, 195 ops/s
+	Run...             OK 5.576 ms, 180 ops/s
+	Run...             OK 5.898 ms, 170 ops/s
+	Run...             OK 7.528 ms, 133 ops/s
+	Run...             OK 5.139 ms, 195 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000 2 5 5.857 171
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 5.026 ms, 199 ops/s
+	Run...             OK 5.294 ms, 189 ops/s
+	Run...             OK 5.115 ms, 196 ops/s
+	Run...             OK 5.537 ms, 181 ops/s
+	Run...             OK 4.492 ms, 223 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000 4 5 5.093 197
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 4.656 ms, 215 ops/s
+	Run...             OK 4.672 ms, 215 ops/s
+	Run...             OK 5.986 ms, 168 ops/s
+	Run...             OK 4.760 ms, 211 ops/s
+	Run...             OK 4.598 ms, 218 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000 8 5 4.934 203
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 7.398 ms, 136 ops/s
+	Run...             OK 5.019 ms, 200 ops/s
+	Run...             OK 15.857 ms, 64 ops/s
+	Run...             OK 16.964 ms, 59 ops/s
+	Run...             OK 9.712 ms, 103 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000 16 5 10.990 91
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 43.738 ms, 229 ops/s
+	Run...             OK 49.569 ms, 202 ops/s
+	Run...             OK 41.355 ms, 242 ops/s
+	Run...             OK 39.276 ms, 255 ops/s
+	Run...             OK 38.589 ms, 260 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 10000 1 5 42.506 236
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 49.621 ms, 202 ops/s
+	Run...             OK 45.350 ms, 221 ops/s
+	Run...             OK 43.069 ms, 233 ops/s
+	Run...             OK 42.921 ms, 233 ops/s
+	Run...             OK 43.012 ms, 233 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 10000 2 5 44.795 224
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 65.146 ms, 154 ops/s
+	Run...             OK 49.871 ms, 201 ops/s
+	Run...             OK 45.320 ms, 221 ops/s
+	Run...             OK 50.976 ms, 197 ops/s
+	Run...             OK 46.481 ms, 216 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 10000 4 5 51.559 194
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 105.589 ms, 95 ops/s
+	Run...             OK 56.666 ms, 177 ops/s
+	Run...             OK 49.635 ms, 202 ops/s
+	Run...             OK 71.339 ms, 141 ops/s
+	Run...             OK 108.239 ms, 93 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 10000 8 5 78.294 128
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 89.552 ms, 112 ops/s
+	Run...             OK 189.314 ms, 53 ops/s
+	Run...             OK 127.041 ms, 79 ops/s
+	Run...             OK 153.548 ms, 66 ops/s
+	Run...             OK 152.357 ms, 66 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 10000 16 5 142.363 71
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 467.473 ms, 214 ops/s
+	Run...             OK 448.409 ms, 224 ops/s
+	Run...             OK 468.428 ms, 214 ops/s
+	Run...             OK 459.098 ms, 218 ops/s
+	Run...             OK 453.398 ms, 221 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 100000 1 5 459.361 218
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 470.084 ms, 213 ops/s
+	Run...             OK 497.010 ms, 202 ops/s
+	Run...             OK 475.076 ms, 211 ops/s
+	Run...             OK 481.005 ms, 208 ops/s
+	Run...             OK 501.201 ms, 200 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 100000 2 5 484.875 207
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 562.175 ms, 178 ops/s
+	Run...             OK 537.346 ms, 187 ops/s
+	Run...             OK 547.058 ms, 183 ops/s
+	Run...             OK 569.262 ms, 176 ops/s
+	Run...             OK 553.409 ms, 181 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 100000 4 5 553.850 181
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 1001.892 ms, 100 ops/s
+	Run...             OK 1021.882 ms, 98 ops/s
+	Run...             OK 1247.637 ms, 81 ops/s
+	Run...             OK 1152.847 ms, 87 ops/s
+	Run...             OK 1215.066 ms, 83 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 100000 8 5 1127.865 89
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 2475.879 ms, 41 ops/s
+	Run...             OK 2210.442 ms, 46 ops/s
+	Run...             OK 2434.517 ms, 42 ops/s
+	Run...             OK 2471.869 ms, 41 ops/s
+	Run...             OK 2646.889 ms, 38 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 100000 16 5 2447.919 41
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1104.603 ms, 182 ops/s
+	Run...             OK 1126.997 ms, 178 ops/s
+	Run...             OK 1070.257 ms, 187 ops/s
+	Run...             OK 1061.822 ms, 189 ops/s
+	Run...             OK 1049.943 ms, 191 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 200000 1 5 1082.724 185
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1084.323 ms, 185 ops/s
+	Run...             OK 1075.798 ms, 186 ops/s
+	Run...             OK 1104.556 ms, 182 ops/s
+	Run...             OK 1052.337 ms, 191 ops/s
+	Run...             OK 1068.188 ms, 188 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 200000 2 5 1077.040 186
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1286.900 ms, 156 ops/s
+	Run...             OK 1188.577 ms, 169 ops/s
+	Run...             OK 1224.011 ms, 164 ops/s
+	Run...             OK 1239.705 ms, 162 ops/s
+	Run...             OK 1197.225 ms, 168 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 200000 4 5 1227.284 163
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 3364.331 ms, 60 ops/s
+	Run...             OK 2964.307 ms, 68 ops/s
+	Run...             OK 2681.525 ms, 75 ops/s
+	Run...             OK 3001.390 ms, 67 ops/s
+	Run...             OK 2509.123 ms, 80 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 200000 8 5 2904.135 69
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 6074.297 ms, 33 ops/s
+	Run...             OK 5892.733 ms, 34 ops/s
+	Run...             OK 6129.740 ms, 33 ops/s
+	Run...             OK 5900.976 ms, 34 ops/s
+	Run...             OK 5784.441 ms, 35 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 200000 16 5 5956.437 34
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2321.797 ms, 173 ops/s
+	Run...             OK 2263.579 ms, 177 ops/s
+	Run...             OK 2295.033 ms, 175 ops/s
+	Run...             OK 2279.463 ms, 176 ops/s
+	Run...             OK 2308.985 ms, 174 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 400000 1 5 2293.771 175
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2157.705 ms, 186 ops/s
+	Run...             OK 2156.059 ms, 186 ops/s
+	Run...             OK 2231.657 ms, 180 ops/s
+	Run...             OK 2228.444 ms, 180 ops/s
+	Run...             OK 2229.899 ms, 180 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 400000 2 5 2200.753 182
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2559.261 ms, 157 ops/s
+	Run...             OK 2642.725 ms, 152 ops/s
+	Run...             OK 2631.230 ms, 153 ops/s
+	Run...             OK 2630.754 ms, 153 ops/s
+	Run...             OK 2614.797 ms, 153 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 400000 4 5 2615.753 153
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 6203.955 ms, 65 ops/s
+	Run...             OK 6256.371 ms, 64 ops/s
+	Run...             OK 6424.273 ms, 63 ops/s
+	Run...             OK 6097.263 ms, 66 ops/s
+	Run...             OK 6338.935 ms, 64 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 400000 8 5 6264.159 64
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 13384.683 ms, 30 ops/s
+	Run...             OK 13153.492 ms, 31 ops/s
+	Run...             OK 12285.990 ms, 33 ops/s
+	Run...             OK 11543.218 ms, 35 ops/s
+	Run...             OK 12230.570 ms, 33 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 400000 16 5 12519.591 32
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 4913.443 ms, 163 ops/s
+	Run...             OK 4982.840 ms, 161 ops/s
+	Run...             OK 4904.753 ms, 164 ops/s
+	Run...             OK 4892.767 ms, 164 ops/s
+	Run...             OK 5026.855 ms, 160 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 800000 1 5 4944.132 162
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 4693.024 ms, 171 ops/s
+	Run...             OK 4687.338 ms, 171 ops/s
+	Run...             OK 4335.004 ms, 185 ops/s
+	Run...             OK 4674.644 ms, 172 ops/s
+	Run...             OK 4991.049 ms, 161 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 800000 2 5 4676.212 172
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 5723.374 ms, 140 ops/s
+	Run...             OK 5505.346 ms, 146 ops/s
+	Run...             OK 5715.851 ms, 140 ops/s
+	Run...             OK 6039.967 ms, 133 ops/s
+	Run...             OK 5596.848 ms, 143 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 800000 4 5 5716.277 140
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 13380.687 ms, 60 ops/s
+	Run...             OK 13428.361 ms, 60 ops/s
+	Run...             OK 12380.842 ms, 65 ops/s
+	Run...             OK 13907.230 ms, 58 ops/s
+	Run...             OK 13858.301 ms, 58 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 800000 8 5 13391.084 60
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 27210.605 ms, 30 ops/s
+	Run...             OK 25619.724 ms, 32 ops/s
+	Run...             OK 27582.144 ms, 30 ops/s
+	Run...             OK 27079.434 ms, 30 ops/s
+	Run...             OK 27389.451 ms, 30 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 800000 16 5 26976.272 30
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 6414.631 ms, 156 ops/s
+	Run...             OK 6552.599 ms, 153 ops/s
+	Run...             OK 6534.152 ms, 154 ops/s
+	Run...             OK 6551.133 ms, 153 ops/s
+	Run...             OK 6863.018 ms, 146 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000000 1 5 6583.107 152
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 6404.283 ms, 157 ops/s
+	Run...             OK 6071.529 ms, 165 ops/s
+	Run...             OK 5927.163 ms, 169 ops/s
+	Run...             OK 6007.664 ms, 167 ops/s
+	Run...             OK 6006.337 ms, 167 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000000 2 5 6083.395 165
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 7052.416 ms, 142 ops/s
+	Run...             OK 7001.858 ms, 143 ops/s
+	Run...             OK 7199.822 ms, 139 ops/s
+	Run...             OK 7128.609 ms, 141 ops/s
+	Run...             OK 7044.566 ms, 142 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000000 4 5 7085.454 142
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 17481.633 ms, 58 ops/s
+	Run...             OK 17521.875 ms, 58 ops/s
+	Run...             OK 17532.225 ms, 58 ops/s
+	Run...             OK 16525.200 ms, 61 ops/s
+	Run...             OK 16509.361 ms, 61 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000000 8 5 17114.059 59
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 37540.175 ms, 27 ops/s
+	Run...             OK 35920.740 ms, 28 ops/s
+	Run...             OK 36560.731 ms, 28 ops/s
+	Run...             OK 36015.954 ms, 28 ops/s
+	Run...             OK 35948.141 ms, 28 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1000000 16 5 36397.148 28
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 10427.574 ms, 144 ops/s
+	Run...             OK 10405.232 ms, 145 ops/s
+	Run...             OK 10463.620 ms, 144 ops/s
+	Run...             OK 10451.735 ms, 144 ops/s
+	Run...             OK 10281.206 ms, 146 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1500000 1 5 10405.873 145
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 9015.008 ms, 167 ops/s
+	Run...             OK 9210.575 ms, 163 ops/s
+	Run...             OK 9409.749 ms, 160 ops/s
+	Run...             OK 9308.512 ms, 162 ops/s
+	Run...             OK 9106.125 ms, 165 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1500000 2 5 9209.994 163
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 10959.033 ms, 137 ops/s
+	Run...             OK 11029.148 ms, 137 ops/s
+	Run...             OK 10817.051 ms, 139 ops/s
+	Run...             OK 10846.822 ms, 139 ops/s
+	Run...             OK 11013.471 ms, 137 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1500000 4 5 10933.105 138
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 26790.784 ms, 56 ops/s
+	Run...             OK 26339.442 ms, 57 ops/s
+	Run...             OK 26507.541 ms, 57 ops/s
+	Run...             OK 26434.574 ms, 57 ops/s
+	Run...             OK 27924.381 ms, 54 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1500000 8 5 26799.345 56
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 58112.374 ms, 26 ops/s
+	Run...             OK 55640.139 ms, 27 ops/s
+	Run...             OK 55294.999 ms, 28 ops/s
+	Run...             OK 56279.890 ms, 27 ops/s
+	Run...             OK 52714.203 ms, 29 ops/s
+
+> TreeInsertTest TML_EAGER_SAFE OK 1500000 16 5 55608.321 27
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 14.371 ms, 70 ops/s
+	Run...             OK 4.948 ms, 203 ops/s
+	Run...             OK 5.026 ms, 199 ops/s
+	Run...             OK 6.483 ms, 155 ops/s
+	Run...             OK 5.772 ms, 174 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 1000 1 5 7.320 137
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 10.616 ms, 95 ops/s
+	Run...             OK 5.375 ms, 187 ops/s
+	Run...             OK 6.540 ms, 153 ops/s
+	Run...             OK 6.321 ms, 159 ops/s
+	Run...             OK 5.057 ms, 198 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 1000 2 5 6.782 148
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 11.179 ms, 90 ops/s
+	Run...             OK 15.106 ms, 67 ops/s
+	Run...             OK 6.670 ms, 150 ops/s
+	Run...             OK 7.258 ms, 138 ops/s
+	Run...             OK 6.303 ms, 159 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 1000 4 5 9.303 108
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 4.829 ms, 208 ops/s
+	Run...             OK 4.561 ms, 220 ops/s
+	Run...             OK 4.821 ms, 208 ops/s
+	Run...             OK 6.114 ms, 164 ops/s
+	Run...             OK 5.287 ms, 190 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 1000 8 5 5.122 196
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 63.689 ms, 16 ops/s
+	Run...             OK 4.858 ms, 206 ops/s
+	Run...             OK 4.696 ms, 213 ops/s
+	Run...             OK 4.863 ms, 206 ops/s
+	Run...             OK 17.145 ms, 59 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 1000 16 5 19.050 53
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 45.281 ms, 221 ops/s
+	Run...             OK 41.488 ms, 242 ops/s
+	Run...             OK 41.195 ms, 243 ops/s
+	Run...             OK 40.158 ms, 250 ops/s
+	Run...             OK 40.712 ms, 246 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 10000 1 5 41.767 240
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 48.873 ms, 205 ops/s
+	Run...             OK 44.812 ms, 224 ops/s
+	Run...             OK 43.963 ms, 228 ops/s
+	Run...             OK 44.073 ms, 227 ops/s
+	Run...             OK 43.067 ms, 233 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 10000 2 5 44.958 223
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 59.106 ms, 170 ops/s
+	Run...             OK 48.805 ms, 205 ops/s
+	Run...             OK 48.195 ms, 208 ops/s
+	Run...             OK 48.320 ms, 207 ops/s
+	Run...             OK 63.251 ms, 159 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 10000 4 5 53.535 187
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 156.133 ms, 65 ops/s
+	Run...             OK 110.176 ms, 91 ops/s
+	Run...             OK 128.218 ms, 78 ops/s
+	Run...             OK 67.228 ms, 149 ops/s
+	Run...             OK 128.383 ms, 78 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 10000 8 5 118.028 85
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 122.619 ms, 82 ops/s
+	Run...             OK 178.702 ms, 56 ops/s
+	Run...             OK 217.544 ms, 46 ops/s
+	Run...             OK 149.122 ms, 68 ops/s
+	Run...             OK 182.448 ms, 55 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 10000 16 5 170.087 59
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 462.306 ms, 217 ops/s
+	Run...             OK 485.271 ms, 207 ops/s
+	Run...             OK 478.133 ms, 210 ops/s
+	Run...             OK 501.713 ms, 200 ops/s
+	Run...             OK 535.656 ms, 187 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 100000 1 5 492.616 203
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 492.780 ms, 203 ops/s
+	Run...             OK 544.939 ms, 184 ops/s
+	Run...             OK 505.563 ms, 198 ops/s
+	Run...             OK 519.924 ms, 193 ops/s
+	Run...             OK 523.646 ms, 191 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 100000 2 5 517.371 194
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 595.748 ms, 168 ops/s
+	Run...             OK 622.806 ms, 161 ops/s
+	Run...             OK 651.082 ms, 154 ops/s
+	Run...             OK 658.187 ms, 152 ops/s
+	Run...             OK 628.238 ms, 160 ops/s
+
+> TreeRemoveTest TML_EAGER_SAFE OK 100000 4 5 631.212 159
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 1474.033 ms, 68 ops/s
+	Run...             OK 1400.932 ms, 72 ops/s
+	Run...             OK 1337.258 ms, 75 ops/s
