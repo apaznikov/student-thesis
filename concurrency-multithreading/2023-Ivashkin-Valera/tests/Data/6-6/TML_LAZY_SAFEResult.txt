@@ -1,0 +1,520 @@
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 2.509 ms, 399 ops/s
+	Run...             OK 2.182 ms, 459 ops/s
+	Run...             OK 2.186 ms, 458 ops/s
+	Run...             OK 2.241 ms, 447 ops/s
+	Run...             OK 2.137 ms, 468 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000 1 5 2.251 445
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 2.501 ms, 400 ops/s
+	Run...             OK 2.640 ms, 379 ops/s
+	Run...             OK 2.481 ms, 404 ops/s
+	Run...             OK 2.448 ms, 409 ops/s
+	Run...             OK 2.472 ms, 405 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000 2 5 2.508 399
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 2.683 ms, 373 ops/s
+	Run...             OK 2.685 ms, 373 ops/s
+	Run...             OK 2.440 ms, 410 ops/s
+	Run...             OK 3.584 ms, 280 ops/s
+	Run...             OK 2.657 ms, 377 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000 4 5 2.810 356
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 2.909 ms, 344 ops/s
+	Run...             OK 2.990 ms, 335 ops/s
+	Run...             OK 2.874 ms, 348 ops/s
+	Run...             OK 28.107 ms, 36 ops/s
+	Run...             OK 3.326 ms, 301 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000 8 5 8.041 125
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 3.163 ms, 317 ops/s
+	Run...             OK 17.187 ms, 59 ops/s
+	Run...             OK 3.521 ms, 285 ops/s
+	Run...             OK 3.589 ms, 279 ops/s
+	Run...             OK 23.312 ms, 43 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000 16 5 10.155 99
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 25.770 ms, 389 ops/s
+	Run...             OK 25.399 ms, 394 ops/s
+	Run...             OK 20.443 ms, 490 ops/s
+	Run...             OK 28.966 ms, 346 ops/s
+	Run...             OK 22.813 ms, 439 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 10000 1 5 24.678 406
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 24.535 ms, 408 ops/s
+	Run...             OK 24.112 ms, 415 ops/s
+	Run...             OK 22.373 ms, 447 ops/s
+	Run...             OK 21.573 ms, 464 ops/s
+	Run...             OK 21.238 ms, 471 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 10000 2 5 22.766 440
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 40.671 ms, 246 ops/s
+	Run...             OK 31.654 ms, 316 ops/s
+	Run...             OK 28.226 ms, 355 ops/s
+	Run...             OK 26.672 ms, 375 ops/s
+	Run...             OK 26.567 ms, 377 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 10000 4 5 30.758 326
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 77.488 ms, 130 ops/s
+	Run...             OK 50.838 ms, 197 ops/s
+	Run...             OK 56.780 ms, 177 ops/s
+	Run...             OK 48.829 ms, 205 ops/s
+	Run...             OK 69.010 ms, 145 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 10000 8 5 60.589 166
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 108.250 ms, 93 ops/s
+	Run...             OK 153.352 ms, 66 ops/s
+	Run...             OK 113.522 ms, 89 ops/s
+	Run...             OK 98.972 ms, 102 ops/s
+	Run...             OK 165.790 ms, 61 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 10000 16 5 127.977 79
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 262.694 ms, 381 ops/s
+	Run...             OK 266.809 ms, 375 ops/s
+	Run...             OK 276.178 ms, 363 ops/s
+	Run...             OK 266.158 ms, 376 ops/s
+	Run...             OK 274.565 ms, 365 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 100000 1 5 269.281 372
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 245.378 ms, 408 ops/s
+	Run...             OK 270.709 ms, 370 ops/s
+	Run...             OK 269.758 ms, 371 ops/s
+	Run...             OK 265.633 ms, 377 ops/s
+	Run...             OK 263.965 ms, 379 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 100000 2 5 263.089 381
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 275.890 ms, 363 ops/s
+	Run...             OK 287.800 ms, 348 ops/s
+	Run...             OK 287.394 ms, 348 ops/s
+	Run...             OK 295.671 ms, 339 ops/s
+	Run...             OK 290.518 ms, 345 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 100000 4 5 287.454 348
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 989.724 ms, 102 ops/s
+	Run...             OK 817.774 ms, 123 ops/s
+	Run...             OK 862.715 ms, 116 ops/s
+	Run...             OK 832.159 ms, 121 ops/s
+	Run...             OK 955.318 ms, 105 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 100000 8 5 891.538 113
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 1898.689 ms, 53 ops/s
+	Run...             OK 2108.556 ms, 48 ops/s
+	Run...             OK 1822.719 ms, 55 ops/s
+	Run...             OK 1653.641 ms, 61 ops/s
+	Run...             OK 1977.457 ms, 51 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 100000 16 5 1892.212 53
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 605.859 ms, 331 ops/s
+	Run...             OK 624.991 ms, 321 ops/s
+	Run...             OK 612.565 ms, 327 ops/s
+	Run...             OK 641.816 ms, 312 ops/s
+	Run...             OK 628.470 ms, 319 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 200000 1 5 622.740 322
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 526.142 ms, 381 ops/s
+	Run...             OK 523.844 ms, 382 ops/s
+	Run...             OK 565.243 ms, 354 ops/s
+	Run...             OK 606.575 ms, 330 ops/s
+	Run...             OK 572.770 ms, 350 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 200000 2 5 558.915 358
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 606.269 ms, 330 ops/s
+	Run...             OK 635.098 ms, 315 ops/s
+	Run...             OK 649.671 ms, 308 ops/s
+	Run...             OK 644.560 ms, 311 ops/s
+	Run...             OK 625.833 ms, 320 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 200000 4 5 632.286 317
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1935.027 ms, 104 ops/s
+	Run...             OK 1879.096 ms, 107 ops/s
+	Run...             OK 2091.987 ms, 96 ops/s
+	Run...             OK 1868.540 ms, 108 ops/s
+	Run...             OK 1938.214 ms, 104 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 200000 8 5 1942.573 103
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 4419.626 ms, 46 ops/s
+	Run...             OK 3790.346 ms, 53 ops/s
+	Run...             OK 4192.099 ms, 48 ops/s
+	Run...             OK 4540.772 ms, 45 ops/s
+	Run...             OK 4656.032 ms, 43 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 200000 16 5 4319.775 47
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1359.141 ms, 295 ops/s
+	Run...             OK 1387.683 ms, 289 ops/s
+	Run...             OK 1419.927 ms, 282 ops/s
+	Run...             OK 1436.668 ms, 279 ops/s
+	Run...             OK 1430.330 ms, 280 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 400000 1 5 1406.750 285
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1175.188 ms, 341 ops/s
+	Run...             OK 1182.272 ms, 339 ops/s
+	Run...             OK 1225.678 ms, 327 ops/s
+	Run...             OK 1208.785 ms, 331 ops/s
+	Run...             OK 1244.220 ms, 322 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 400000 2 5 1207.228 332
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1326.657 ms, 302 ops/s
+	Run...             OK 1359.890 ms, 295 ops/s
+	Run...             OK 1350.502 ms, 297 ops/s
+	Run...             OK 1389.126 ms, 288 ops/s
+	Run...             OK 1387.275 ms, 289 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 400000 4 5 1362.690 294
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 4312.545 ms, 93 ops/s
+	Run...             OK 4176.519 ms, 96 ops/s
+	Run...             OK 4374.227 ms, 92 ops/s
+	Run...             OK 4463.076 ms, 90 ops/s
+	Run...             OK 4547.479 ms, 88 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 400000 8 5 4374.769 92
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 9126.495 ms, 44 ops/s
+	Run...             OK 9368.898 ms, 43 ops/s
+	Run...             OK 9509.038 ms, 43 ops/s
+	Run...             OK 11253.656 ms, 36 ops/s
+	Run...             OK 9739.065 ms, 42 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 400000 16 5 9799.430 41
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 3135.733 ms, 256 ops/s
+	Run...             OK 3155.200 ms, 254 ops/s
+	Run...             OK 3217.791 ms, 249 ops/s
+	Run...             OK 3222.786 ms, 249 ops/s
+	Run...             OK 3730.363 ms, 215 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 800000 1 5 3292.375 243
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2700.531 ms, 297 ops/s
+	Run...             OK 2619.960 ms, 306 ops/s
+	Run...             OK 2713.789 ms, 295 ops/s
+	Run...             OK 2639.594 ms, 304 ops/s
+	Run...             OK 2671.505 ms, 300 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 800000 2 5 2669.076 300
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2854.194 ms, 281 ops/s
+	Run...             OK 2931.316 ms, 273 ops/s
+	Run...             OK 2948.424 ms, 272 ops/s
+	Run...             OK 2982.334 ms, 269 ops/s
+	Run...             OK 2977.110 ms, 269 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 800000 4 5 2938.676 273
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 9493.046 ms, 85 ops/s
+	Run...             OK 10251.910 ms, 79 ops/s
+	Run...             OK 10609.055 ms, 76 ops/s
+	Run...             OK 11730.771 ms, 69 ops/s
+	Run...             OK 11112.294 ms, 72 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 800000 8 5 10639.415 76
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 21736.448 ms, 37 ops/s
+	Run...             OK 21981.825 ms, 37 ops/s
+	Run...             OK 22250.137 ms, 36 ops/s
+	Run...             OK 22116.464 ms, 37 ops/s
+	Run...             OK 21921.872 ms, 37 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 800000 16 5 22001.349 37
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 4144.261 ms, 242 ops/s
+	Run...             OK 4306.629 ms, 233 ops/s
+	Run...             OK 4422.226 ms, 227 ops/s
+	Run...             OK 4338.165 ms, 231 ops/s
+	Run...             OK 4454.122 ms, 225 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000000 1 5 4333.081 231
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 3465.396 ms, 289 ops/s
+	Run...             OK 3925.229 ms, 255 ops/s
+	Run...             OK 3708.340 ms, 270 ops/s
+	Run...             OK 3816.184 ms, 263 ops/s
+	Run...             OK 3791.841 ms, 264 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000000 2 5 3741.398 268
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 4387.782 ms, 228 ops/s
+	Run...             OK 4575.317 ms, 219 ops/s
+	Run...             OK 4538.603 ms, 221 ops/s
+	Run...             OK 4947.173 ms, 203 ops/s
+	Run...             OK 4771.803 ms, 210 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000000 4 5 4644.136 216
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 14240.848 ms, 71 ops/s
+	Run...             OK 14049.932 ms, 72 ops/s
+	Run...             OK 14411.386 ms, 70 ops/s
+	Run...             OK 15001.943 ms, 67 ops/s
+	Run...             OK 14546.202 ms, 69 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000000 8 5 14450.062 70
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 27951.114 ms, 36 ops/s
+	Run...             OK 29523.882 ms, 34 ops/s
+	Run...             OK 28537.237 ms, 36 ops/s
+	Run...             OK 28964.734 ms, 35 ops/s
+	Run...             OK 28229.303 ms, 36 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1000000 16 5 28641.254 35
+
+
+Test: TreeRemoveTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 7055.920 ms, 213 ops/s
+	Run...             OK 7641.378 ms, 197 ops/s
+	Run...             OK 8244.368 ms, 182 ops/s
+	Run...             OK 7314.920 ms, 206 ops/s
+	Run...             OK 7307.111 ms, 206 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1500000 1 5 7512.739 200
+
+
+Test: TreeRemoveTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 5446.783 ms, 276 ops/s
+	Run...             OK 5716.294 ms, 263 ops/s
+	Run...             OK 5713.007 ms, 263 ops/s
+	Run...             OK 6127.038 ms, 245 ops/s
+	Run...             OK 6004.221 ms, 250 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1500000 2 5 5801.468 259
+
+
+Test: TreeRemoveTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 6844.097 ms, 220 ops/s
+	Run...             OK 7003.101 ms, 215 ops/s
+	Run...             OK 7081.898 ms, 212 ops/s
+	Run...             OK 7149.906 ms, 210 ops/s
+	Run...             OK 7253.305 ms, 207 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1500000 4 5 7066.461 213
+
+
+Test: TreeRemoveTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 21949.895 ms, 69 ops/s
+	Run...             OK 23891.198 ms, 63 ops/s
+	Run...             OK 23348.796 ms, 65 ops/s
+	Run...             OK 22620.325 ms, 67 ops/s
+	Run...             OK 21997.677 ms, 69 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1500000 8 5 22761.578 66
+
+
+Test: TreeRemoveTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 44975.733 ms, 34 ops/s
+	Run...             OK 46608.333 ms, 33 ops/s
+	Run...             OK 46520.179 ms, 33 ops/s
+	Run...             OK 47261.286 ms, 32 ops/s
+	Run...             OK 47511.449 ms, 32 ops/s
+
+> TreeRemoveTest TML_LAZY_SAFE OK 1500000 16 5 46575.396 33
+
+

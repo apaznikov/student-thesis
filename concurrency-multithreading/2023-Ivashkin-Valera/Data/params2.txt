@@ -1,0 +1,36 @@
+TreeInsertTest 1 10000 5
+TreeInsertTest  2 10000 5
+TreeInsertTest  4 10000 5
+TreeInsertTest  8 10000 5
+TreeInsertTest  16 10000 5
+
+TreeInsertTest 1 100000 5
+TreeInsertTest  2 100000 5
+TreeInsertTest  4 100000 5
+TreeInsertTest  8 100000 5
+TreeInsertTest  16 100000 5
+
+TreeInsertTest 1 1000000 5
+TreeInsertTest  2 1000000 5
+TreeInsertTest  4 1000000 5
+TreeInsertTest  8 1000000 5
+TreeInsertTest  16 1000000 5
+
+
+TreeRemoveTest 1 10000 5
+TreeRemoveTest  2 10000 5
+TreeRemoveTest  4 10000 5
+TreeRemoveTest  8 10000 5
+TreeRemoveTest  16 10000 5
+
+TreeRemoveTest 1 100000 5
+TreeRemoveTest  2 100000 5
+TreeRemoveTest  4 100000 5
+TreeRemoveTest  8 100000 5
+TreeRemoveTest  16 100000 5
+
+TreeRemoveTest 1 1000000 5
+TreeRemoveTest  2 1000000 5
+TreeRemoveTest  4 1000000 5
+TreeRemoveTest  8 1000000 5
+TreeRemoveTest  16 1000000 5

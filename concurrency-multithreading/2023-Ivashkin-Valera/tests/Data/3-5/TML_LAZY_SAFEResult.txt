@@ -1,0 +1,1560 @@
+Test: HashInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.807 ms, 1239 ops/s
+	Run...             OK 0.688 ms, 1454 ops/s
+	Run...             OK 0.626 ms, 1597 ops/s
+	Run...             OK 0.671 ms, 1491 ops/s
+	Run...             OK 0.643 ms, 1557 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000 1 5 0.687 1456
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.772 ms, 1296 ops/s
+	Run...             OK 0.769 ms, 1301 ops/s
+	Run...             OK 0.828 ms, 1208 ops/s
+	Run...             OK 0.832 ms, 1203 ops/s
+	Run...             OK 0.786 ms, 1274 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000 2 5 0.797 1255
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 0.945 ms, 1059 ops/s
+	Run...             OK 0.912 ms, 1097 ops/s
+	Run...             OK 0.902 ms, 1109 ops/s
+	Run...             OK 0.952 ms, 1051 ops/s
+	Run...             OK 1.013 ms, 988 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000 4 5 0.945 1059
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 1.055 ms, 949 ops/s
+	Run...             OK 1.388 ms, 721 ops/s
+	Run...             OK 5.709 ms, 176 ops/s
+	Run...             OK 2.316 ms, 432 ops/s
+	Run...             OK 9.879 ms, 102 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000 8 5 4.069 246
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 9.963 ms, 101 ops/s
+	Run...             OK 1.848 ms, 542 ops/s
+	Run...             OK 1.712 ms, 585 ops/s
+	Run...             OK 1.955 ms, 512 ops/s
+	Run...             OK 1.428 ms, 701 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000 16 5 3.381 296
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 7.137 ms, 1402 ops/s
+	Run...             OK 6.849 ms, 1461 ops/s
+	Run...             OK 7.413 ms, 1350 ops/s
+	Run...             OK 6.204 ms, 1612 ops/s
+	Run...             OK 6.057 ms, 1651 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 10000 1 5 6.732 1486
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 7.647 ms, 1308 ops/s
+	Run...             OK 11.348 ms, 882 ops/s
+	Run...             OK 8.593 ms, 1164 ops/s
+	Run...             OK 7.832 ms, 1277 ops/s
+	Run...             OK 11.552 ms, 866 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 10000 2 5 9.395 1065
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 12.624 ms, 793 ops/s
+	Run...             OK 14.391 ms, 695 ops/s
+	Run...             OK 8.919 ms, 1122 ops/s
+	Run...             OK 8.133 ms, 1230 ops/s
+	Run...             OK 8.470 ms, 1181 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 10000 4 5 10.507 952
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 8.186 ms, 1222 ops/s
+	Run...             OK 9.446 ms, 1059 ops/s
+	Run...             OK 8.624 ms, 1160 ops/s
+	Run...             OK 9.782 ms, 1023 ops/s
+	Run...             OK 23.115 ms, 433 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 10000 8 5 11.831 846
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 8.683 ms, 1152 ops/s
+	Run...             OK 34.685 ms, 289 ops/s
+	Run...             OK 8.743 ms, 1144 ops/s
+	Run...             OK 19.991 ms, 501 ops/s
+	Run...             OK 21.768 ms, 460 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 10000 16 5 18.774 533
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 86.611 ms, 1155 ops/s
+	Run...             OK 85.004 ms, 1177 ops/s
+	Run...             OK 86.908 ms, 1151 ops/s
+	Run...             OK 109.033 ms, 918 ops/s
+	Run...             OK 84.785 ms, 1180 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 100000 1 5 90.468 1106
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 96.813 ms, 1033 ops/s
+	Run...             OK 81.851 ms, 1222 ops/s
+	Run...             OK 79.774 ms, 1254 ops/s
+	Run...             OK 97.015 ms, 1031 ops/s
+	Run...             OK 86.369 ms, 1158 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 100000 2 5 88.364 1132
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 106.084 ms, 943 ops/s
+	Run...             OK 84.681 ms, 1181 ops/s
+	Run...             OK 87.512 ms, 1143 ops/s
+	Run...             OK 84.734 ms, 1181 ops/s
+	Run...             OK 90.400 ms, 1107 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 100000 4 5 90.682 1103
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 161.907 ms, 618 ops/s
+	Run...             OK 236.001 ms, 424 ops/s
+	Run...             OK 165.088 ms, 606 ops/s
+	Run...             OK 232.005 ms, 432 ops/s
+	Run...             OK 230.495 ms, 434 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 100000 8 5 205.099 488
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 404.227 ms, 248 ops/s
+	Run...             OK 415.615 ms, 241 ops/s
+	Run...             OK 512.309 ms, 196 ops/s
+	Run...             OK 480.351 ms, 209 ops/s
+	Run...             OK 473.171 ms, 212 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 100000 16 5 457.135 219
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 203.012 ms, 986 ops/s
+	Run...             OK 213.117 ms, 939 ops/s
+	Run...             OK 219.459 ms, 912 ops/s
+	Run...             OK 213.537 ms, 937 ops/s
+	Run...             OK 211.519 ms, 946 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 200000 1 5 212.129 943
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 199.347 ms, 1004 ops/s
+	Run...             OK 195.321 ms, 1024 ops/s
+	Run...             OK 200.322 ms, 999 ops/s
+	Run...             OK 205.415 ms, 974 ops/s
+	Run...             OK 189.565 ms, 1056 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 200000 2 5 197.994 1011
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 210.643 ms, 950 ops/s
+	Run...             OK 208.949 ms, 958 ops/s
+	Run...             OK 204.395 ms, 979 ops/s
+	Run...             OK 202.981 ms, 986 ops/s
+	Run...             OK 212.511 ms, 942 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 200000 4 5 207.896 963
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 476.659 ms, 420 ops/s
+	Run...             OK 446.325 ms, 449 ops/s
+	Run...             OK 550.335 ms, 364 ops/s
+	Run...             OK 484.945 ms, 413 ops/s
+	Run...             OK 583.897 ms, 343 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 200000 8 5 508.432 394
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1027.783 ms, 195 ops/s
+	Run...             OK 1045.721 ms, 192 ops/s
+	Run...             OK 1001.195 ms, 200 ops/s
+	Run...             OK 1111.343 ms, 180 ops/s
+	Run...             OK 1170.635 ms, 171 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 200000 16 5 1071.335 187
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 508.008 ms, 788 ops/s
+	Run...             OK 514.668 ms, 778 ops/s
+	Run...             OK 520.767 ms, 769 ops/s
+	Run...             OK 519.340 ms, 771 ops/s
+	Run...             OK 518.499 ms, 772 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 400000 1 5 516.256 775
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 467.671 ms, 856 ops/s
+	Run...             OK 464.296 ms, 862 ops/s
+	Run...             OK 446.551 ms, 896 ops/s
+	Run...             OK 478.075 ms, 837 ops/s
+	Run...             OK 452.482 ms, 885 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 400000 2 5 461.815 867
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 479.001 ms, 836 ops/s
+	Run...             OK 471.775 ms, 848 ops/s
+	Run...             OK 486.077 ms, 823 ops/s
+	Run...             OK 483.901 ms, 827 ops/s
+	Run...             OK 473.569 ms, 845 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 400000 4 5 478.865 836
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1114.168 ms, 360 ops/s
+	Run...             OK 1184.978 ms, 338 ops/s
+	Run...             OK 1043.116 ms, 384 ops/s
+	Run...             OK 1171.283 ms, 342 ops/s
+	Run...             OK 1170.588 ms, 342 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 400000 8 5 1136.827 352
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2435.486 ms, 165 ops/s
+	Run...             OK 2961.645 ms, 136 ops/s
+	Run...             OK 2449.511 ms, 164 ops/s
+	Run...             OK 2374.227 ms, 169 ops/s
+	Run...             OK 2472.611 ms, 162 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 400000 16 5 2538.696 158
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1126.454 ms, 711 ops/s
+	Run...             OK 1213.320 ms, 660 ops/s
+	Run...             OK 1224.755 ms, 654 ops/s
+	Run...             OK 1261.431 ms, 635 ops/s
+	Run...             OK 1234.193 ms, 649 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 800000 1 5 1212.031 661
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1070.789 ms, 748 ops/s
+	Run...             OK 1058.333 ms, 756 ops/s
+	Run...             OK 1012.781 ms, 790 ops/s
+	Run...             OK 1021.278 ms, 784 ops/s
+	Run...             OK 1078.716 ms, 742 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 800000 2 5 1048.379 764
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1078.274 ms, 742 ops/s
+	Run...             OK 1112.056 ms, 720 ops/s
+	Run...             OK 1125.949 ms, 711 ops/s
+	Run...             OK 1097.279 ms, 730 ops/s
+	Run...             OK 1106.495 ms, 724 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 800000 4 5 1104.011 725
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2707.343 ms, 296 ops/s
+	Run...             OK 2580.784 ms, 310 ops/s
+	Run...             OK 2579.882 ms, 311 ops/s
+	Run...             OK 2988.892 ms, 268 ops/s
+	Run...             OK 2677.015 ms, 299 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 800000 8 5 2706.783 296
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 5488.770 ms, 146 ops/s
+	Run...             OK 6110.547 ms, 131 ops/s
+	Run...             OK 5871.628 ms, 137 ops/s
+	Run...             OK 6600.265 ms, 122 ops/s
+	Run...             OK 5691.388 ms, 141 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 800000 16 5 5952.520 135
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1596.740 ms, 627 ops/s
+	Run...             OK 1741.465 ms, 575 ops/s
+	Run...             OK 1707.065 ms, 586 ops/s
+	Run...             OK 1734.668 ms, 577 ops/s
+	Run...             OK 1725.414 ms, 580 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000000 1 5 1701.070 588
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1504.411 ms, 665 ops/s
+	Run...             OK 1487.736 ms, 673 ops/s
+	Run...             OK 1627.280 ms, 615 ops/s
+	Run...             OK 1603.654 ms, 624 ops/s
+	Run...             OK 1554.714 ms, 644 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000000 2 5 1555.559 643
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 1762.444 ms, 568 ops/s
+	Run...             OK 1740.470 ms, 575 ops/s
+	Run...             OK 1822.098 ms, 549 ops/s
+	Run...             OK 1805.630 ms, 554 ops/s
+	Run...             OK 1805.842 ms, 554 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000000 4 5 1787.297 560
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 4396.684 ms, 228 ops/s
+	Run...             OK 4725.975 ms, 212 ops/s
+	Run...             OK 4583.301 ms, 219 ops/s
+	Run...             OK 4551.596 ms, 220 ops/s
+	Run...             OK 4368.998 ms, 229 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000000 8 5 4525.311 221
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 8885.412 ms, 113 ops/s
+	Run...             OK 8309.703 ms, 121 ops/s
+	Run...             OK 8860.323 ms, 113 ops/s
+	Run...             OK 8596.434 ms, 117 ops/s
+	Run...             OK 8179.123 ms, 123 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1000000 16 5 8566.199 117
+
+
+Test: HashInsertTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 2668.237 ms, 563 ops/s
+	Run...             OK 2835.171 ms, 530 ops/s
+	Run...             OK 2839.872 ms, 529 ops/s
+	Run...             OK 2901.116 ms, 518 ops/s
+	Run...             OK 2886.519 ms, 520 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1500000 1 5 2826.183 531
+
+
+Test: HashInsertTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 2589.667 ms, 580 ops/s
+	Run...             OK 2572.628 ms, 584 ops/s
+	Run...             OK 2581.359 ms, 582 ops/s
+	Run...             OK 2547.718 ms, 589 ops/s
+	Run...             OK 2586.650 ms, 580 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1500000 2 5 2575.604 583
+
+
+Test: HashInsertTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 3006.975 ms, 499 ops/s
+	Run...             OK 3108.947 ms, 483 ops/s
+	Run...             OK 3443.448 ms, 436 ops/s
+	Run...             OK 3459.436 ms, 434 ops/s
+	Run...             OK 3379.700 ms, 444 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1500000 4 5 3279.701 458
+
+
+Test: HashInsertTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 7199.958 ms, 209 ops/s
+	Run...             OK 7851.227 ms, 192 ops/s
+	Run...             OK 7436.424 ms, 202 ops/s
+	Run...             OK 7623.708 ms, 197 ops/s
+	Run...             OK 7494.387 ms, 201 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1500000 8 5 7521.141 200
+
+
+Test: HashInsertTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 14071.718 ms, 107 ops/s
+	Run...             OK 14880.002 ms, 101 ops/s
+	Run...             OK 14275.650 ms, 106 ops/s
+	Run...             OK 15512.061 ms, 97 ops/s
+	Run...             OK 14298.118 ms, 105 ops/s
+
+> HashInsertTest TML_LAZY_SAFE OK 1500000 16 5 14607.510 103
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 8.974 ms, 112 ops/s
+	Run...             OK 2.911 ms, 344 ops/s
+	Run...             OK 2.861 ms, 350 ops/s
+	Run...             OK 2.657 ms, 377 ops/s
+	Run...             OK 2.644 ms, 379 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000 1 5 4.009 250
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 7.213 ms, 139 ops/s
+	Run...             OK 2.569 ms, 390 ops/s
+	Run...             OK 2.210 ms, 453 ops/s
+	Run...             OK 2.230 ms, 449 ops/s
+	Run...             OK 2.334 ms, 429 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000 2 5 3.311 302
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 10.200 ms, 99 ops/s
+	Run...             OK 7.743 ms, 130 ops/s
+	Run...             OK 4.277 ms, 234 ops/s
+	Run...             OK 2.231 ms, 449 ops/s
+	Run...             OK 2.407 ms, 416 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000 4 5 5.371 187
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 2.283 ms, 439 ops/s
+	Run...             OK 2.028 ms, 494 ops/s
+	Run...             OK 3.119 ms, 321 ops/s
+	Run...             OK 5.696 ms, 176 ops/s
+	Run...             OK 2.401 ms, 417 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000 8 5 3.105 323
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 2.888 ms, 347 ops/s
+	Run...             OK 3.343 ms, 300 ops/s
+	Run...             OK 3.057 ms, 328 ops/s
+	Run...             OK 3.094 ms, 324 ops/s
+	Run...             OK 4.128 ms, 243 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000 16 5 3.302 303
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 15.705 ms, 637 ops/s
+	Run...             OK 25.176 ms, 398 ops/s
+	Run...             OK 18.733 ms, 534 ops/s
+	Run...             OK 15.709 ms, 637 ops/s
+	Run...             OK 15.668 ms, 639 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 10000 1 5 18.198 550
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 20.738 ms, 483 ops/s
+	Run...             OK 23.161 ms, 432 ops/s
+	Run...             OK 20.446 ms, 490 ops/s
+	Run...             OK 18.834 ms, 531 ops/s
+	Run...             OK 18.087 ms, 553 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 10000 2 5 20.253 494
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 22.506 ms, 445 ops/s
+	Run...             OK 22.422 ms, 446 ops/s
+	Run...             OK 22.099 ms, 453 ops/s
+	Run...             OK 21.013 ms, 476 ops/s
+	Run...             OK 19.912 ms, 503 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 10000 4 5 21.590 464
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 19.405 ms, 516 ops/s
+	Run...             OK 36.327 ms, 276 ops/s
+	Run...             OK 31.778 ms, 315 ops/s
+	Run...             OK 40.667 ms, 246 ops/s
+	Run...             OK 32.998 ms, 304 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 10000 8 5 32.235 311
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 24.749 ms, 405 ops/s
+	Run...             OK 64.301 ms, 156 ops/s
+	Run...             OK 54.963 ms, 182 ops/s
+	Run...             OK 81.914 ms, 123 ops/s
+	Run...             OK 63.793 ms, 157 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 10000 16 5 57.944 173
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 185.778 ms, 539 ops/s
+	Run...             OK 172.521 ms, 580 ops/s
+	Run...             OK 168.871 ms, 593 ops/s
+	Run...             OK 188.517 ms, 531 ops/s
+	Run...             OK 171.260 ms, 584 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 100000 1 5 177.390 564
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 195.008 ms, 513 ops/s
+	Run...             OK 193.923 ms, 516 ops/s
+	Run...             OK 184.996 ms, 541 ops/s
+	Run...             OK 190.185 ms, 526 ops/s
+	Run...             OK 183.461 ms, 546 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 100000 2 5 189.515 528
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 219.103 ms, 457 ops/s
+	Run...             OK 222.554 ms, 450 ops/s
+	Run...             OK 218.112 ms, 459 ops/s
+	Run...             OK 223.005 ms, 449 ops/s
+	Run...             OK 221.556 ms, 452 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 100000 4 5 220.866 453
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 391.425 ms, 256 ops/s
+	Run...             OK 445.265 ms, 225 ops/s
+	Run...             OK 376.489 ms, 266 ops/s
+	Run...             OK 456.187 ms, 220 ops/s
+	Run...             OK 380.720 ms, 263 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 100000 8 5 410.017 244
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 751.329 ms, 134 ops/s
+	Run...             OK 876.986 ms, 115 ops/s
+	Run...             OK 655.868 ms, 153 ops/s
+	Run...             OK 906.119 ms, 111 ops/s
+	Run...             OK 758.051 ms, 132 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 100000 16 5 789.671 127
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 391.346 ms, 512 ops/s
+	Run...             OK 367.632 ms, 545 ops/s
+	Run...             OK 373.260 ms, 536 ops/s
+	Run...             OK 366.685 ms, 546 ops/s
+	Run...             OK 392.953 ms, 509 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 200000 1 5 378.375 529
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 399.679 ms, 501 ops/s
+	Run...             OK 396.057 ms, 505 ops/s
+	Run...             OK 400.626 ms, 500 ops/s
+	Run...             OK 416.942 ms, 480 ops/s
+	Run...             OK 397.649 ms, 503 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 200000 2 5 402.191 498
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 468.499 ms, 427 ops/s
+	Run...             OK 435.376 ms, 460 ops/s
+	Run...             OK 470.139 ms, 426 ops/s
+	Run...             OK 492.994 ms, 406 ops/s
+	Run...             OK 456.846 ms, 438 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 200000 4 5 464.771 431
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 867.969 ms, 231 ops/s
+	Run...             OK 875.010 ms, 229 ops/s
+	Run...             OK 1025.878 ms, 195 ops/s
+	Run...             OK 841.461 ms, 238 ops/s
+	Run...             OK 863.189 ms, 232 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 200000 8 5 894.701 224
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1586.469 ms, 127 ops/s
+	Run...             OK 1621.672 ms, 124 ops/s
+	Run...             OK 1644.066 ms, 122 ops/s
+	Run...             OK 1987.375 ms, 101 ops/s
+	Run...             OK 1567.254 ms, 128 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 200000 16 5 1681.367 119
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 808.404 ms, 495 ops/s
+	Run...             OK 782.615 ms, 512 ops/s
+	Run...             OK 782.497 ms, 512 ops/s
+	Run...             OK 827.385 ms, 484 ops/s
+	Run...             OK 800.826 ms, 500 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 400000 1 5 800.345 500
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 857.379 ms, 467 ops/s
+	Run...             OK 835.462 ms, 479 ops/s
+	Run...             OK 860.189 ms, 466 ops/s
+	Run...             OK 847.339 ms, 473 ops/s
+	Run...             OK 855.749 ms, 468 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 400000 2 5 851.224 470
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 1056.921 ms, 379 ops/s
+	Run...             OK 1033.076 ms, 388 ops/s
+	Run...             OK 1088.046 ms, 368 ops/s
+	Run...             OK 1059.961 ms, 378 ops/s
+	Run...             OK 1052.897 ms, 380 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 400000 4 5 1058.180 379
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2084.268 ms, 192 ops/s
+	Run...             OK 1965.841 ms, 204 ops/s
+	Run...             OK 1888.447 ms, 212 ops/s
+	Run...             OK 2170.216 ms, 185 ops/s
+	Run...             OK 2135.181 ms, 188 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 400000 8 5 2048.790 196
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 3106.299 ms, 129 ops/s
+	Run...             OK 3864.577 ms, 104 ops/s
+	Run...             OK 3726.568 ms, 108 ops/s
+	Run...             OK 3472.993 ms, 116 ops/s
+	Run...             OK 4292.765 ms, 94 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 400000 16 5 3692.640 109
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1737.720 ms, 461 ops/s
+	Run...             OK 1714.777 ms, 467 ops/s
+	Run...             OK 1713.751 ms, 467 ops/s
+	Run...             OK 1711.656 ms, 468 ops/s
+	Run...             OK 1677.123 ms, 478 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 800000 1 5 1711.005 468
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 1868.551 ms, 429 ops/s
+	Run...             OK 1896.022 ms, 422 ops/s
+	Run...             OK 1898.807 ms, 422 ops/s
+	Run...             OK 1925.885 ms, 416 ops/s
+	Run...             OK 1940.248 ms, 413 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 800000 2 5 1905.903 420
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 2213.368 ms, 362 ops/s
+	Run...             OK 2189.095 ms, 366 ops/s
+	Run...             OK 2290.632 ms, 350 ops/s
+	Run...             OK 2299.863 ms, 348 ops/s
+	Run...             OK 2245.076 ms, 357 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 800000 4 5 2247.607 356
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 4473.680 ms, 179 ops/s
+	Run...             OK 4502.174 ms, 178 ops/s
+	Run...             OK 4771.622 ms, 168 ops/s
+	Run...             OK 4830.558 ms, 166 ops/s
+	Run...             OK 5011.796 ms, 160 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 800000 8 5 4717.966 170
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 9323.232 ms, 86 ops/s
+	Run...             OK 9229.632 ms, 87 ops/s
+	Run...             OK 8988.924 ms, 89 ops/s
+	Run...             OK 8693.144 ms, 93 ops/s
+	Run...             OK 9438.006 ms, 85 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 800000 16 5 9134.588 88
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2283.964 ms, 438 ops/s
+	Run...             OK 2263.581 ms, 442 ops/s
+	Run...             OK 2253.164 ms, 444 ops/s
+	Run...             OK 2275.936 ms, 440 ops/s
+	Run...             OK 2252.736 ms, 444 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000000 1 5 2265.876 442
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2468.020 ms, 406 ops/s
+	Run...             OK 2519.204 ms, 397 ops/s
+	Run...             OK 2465.270 ms, 406 ops/s
+	Run...             OK 2521.996 ms, 397 ops/s
+	Run...             OK 2535.057 ms, 395 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000000 2 5 2501.909 400
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 2923.919 ms, 343 ops/s
+	Run...             OK 2987.063 ms, 335 ops/s
+	Run...             OK 3068.642 ms, 326 ops/s
+	Run...             OK 2917.612 ms, 343 ops/s
+	Run...             OK 2932.433 ms, 342 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000000 4 5 2965.934 338
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 6186.029 ms, 162 ops/s
+	Run...             OK 6149.611 ms, 163 ops/s
+	Run...             OK 6217.208 ms, 161 ops/s
+	Run...             OK 6539.016 ms, 153 ops/s
+	Run...             OK 6281.229 ms, 160 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000000 8 5 6274.619 160
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 10694.996 ms, 94 ops/s
+	Run...             OK 10435.427 ms, 96 ops/s
+	Run...             OK 11239.618 ms, 89 ops/s
+	Run...             OK 11917.653 ms, 84 ops/s
+	Run...             OK 12255.148 ms, 82 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1000000 16 5 11308.568 89
+
+
+Test: ListInsertTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 3708.892 ms, 405 ops/s
+	Run...             OK 3732.654 ms, 402 ops/s
+	Run...             OK 3716.669 ms, 404 ops/s
+	Run...             OK 3674.108 ms, 409 ops/s
+	Run...             OK 3687.274 ms, 407 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1500000 1 5 3703.919 405
+
+
+Test: ListInsertTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 3972.137 ms, 378 ops/s
+	Run...             OK 3900.308 ms, 385 ops/s
+	Run...             OK 4327.334 ms, 347 ops/s
+	Run...             OK 4374.339 ms, 343 ops/s
+	Run...             OK 4294.295 ms, 350 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1500000 2 5 4173.683 360
+
+
+Test: ListInsertTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 5515.991 ms, 272 ops/s
+	Run...             OK 5438.717 ms, 276 ops/s
+	Run...             OK 5305.420 ms, 283 ops/s
+	Run...             OK 5398.669 ms, 278 ops/s
+	Run...             OK 5737.849 ms, 262 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1500000 4 5 5479.330 274
+
+
+Test: ListInsertTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 10458.542 ms, 144 ops/s
+	Run...             OK 9789.345 ms, 154 ops/s
+	Run...             OK 10863.480 ms, 139 ops/s
+	Run...             OK 11242.972 ms, 134 ops/s
+	Run...             OK 11215.317 ms, 134 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1500000 8 5 10713.931 141
+
+
+Test: ListInsertTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 19991.199 ms, 76 ops/s
+	Run...             OK 20634.981 ms, 73 ops/s
+	Run...             OK 20568.938 ms, 73 ops/s
+	Run...             OK 21876.540 ms, 69 ops/s
+	Run...             OK 22255.846 ms, 68 ops/s
+
+> ListInsertTest TML_LAZY_SAFE OK 1500000 16 5 21065.501 72
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 1000
+Repeat count: 5
+	Run...             OK 7.006 ms, 143 ops/s
+	Run...             OK 5.198 ms, 193 ops/s
+	Run...             OK 7.133 ms, 141 ops/s
+	Run...             OK 6.225 ms, 161 ops/s
+	Run...             OK 5.610 ms, 179 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000 1 5 6.234 161
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 1000
+Repeat count: 5
+	Run...             OK 7.492 ms, 134 ops/s
+	Run...             OK 5.513 ms, 182 ops/s
+	Run...             OK 5.488 ms, 183 ops/s
+	Run...             OK 5.394 ms, 186 ops/s
+	Run...             OK 5.658 ms, 177 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000 2 5 5.909 170
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 1000
+Repeat count: 5
+	Run...             OK 7.963 ms, 126 ops/s
+	Run...             OK 7.159 ms, 140 ops/s
+	Run...             OK 7.131 ms, 141 ops/s
+	Run...             OK 6.874 ms, 146 ops/s
+	Run...             OK 7.149 ms, 140 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000 4 5 7.255 138
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 1000
+Repeat count: 5
+	Run...             OK 6.329 ms, 158 ops/s
+	Run...             OK 6.182 ms, 162 ops/s
+	Run...             OK 15.950 ms, 63 ops/s
+	Run...             OK 6.261 ms, 160 ops/s
+	Run...             OK 6.111 ms, 164 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000 8 5 8.167 123
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 1000
+Repeat count: 5
+	Run...             OK 6.848 ms, 147 ops/s
+	Run...             OK 20.083 ms, 50 ops/s
+	Run...             OK 6.690 ms, 150 ops/s
+	Run...             OK 6.797 ms, 148 ops/s
+	Run...             OK 22.333 ms, 45 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000 16 5 12.550 80
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 10000
+Repeat count: 5
+	Run...             OK 58.816 ms, 171 ops/s
+	Run...             OK 61.534 ms, 163 ops/s
+	Run...             OK 56.390 ms, 178 ops/s
+	Run...             OK 52.253 ms, 192 ops/s
+	Run...             OK 53.802 ms, 186 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 10000 1 5 56.559 177
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 10000
+Repeat count: 5
+	Run...             OK 53.608 ms, 187 ops/s
+	Run...             OK 50.854 ms, 197 ops/s
+	Run...             OK 49.730 ms, 202 ops/s
+	Run...             OK 55.627 ms, 180 ops/s
+	Run...             OK 54.382 ms, 184 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 10000 2 5 52.840 190
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 10000
+Repeat count: 5
+	Run...             OK 74.558 ms, 135 ops/s
+	Run...             OK 70.463 ms, 142 ops/s
+	Run...             OK 74.372 ms, 135 ops/s
+	Run...             OK 76.728 ms, 131 ops/s
+	Run...             OK 64.629 ms, 155 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 10000 4 5 72.150 139
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 10000
+Repeat count: 5
+	Run...             OK 83.255 ms, 121 ops/s
+	Run...             OK 123.457 ms, 82 ops/s
+	Run...             OK 89.275 ms, 113 ops/s
+	Run...             OK 82.525 ms, 122 ops/s
+	Run...             OK 83.507 ms, 120 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 10000 8 5 92.404 109
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 10000
+Repeat count: 5
+	Run...             OK 161.030 ms, 63 ops/s
+	Run...             OK 162.740 ms, 62 ops/s
+	Run...             OK 212.227 ms, 48 ops/s
+	Run...             OK 149.312 ms, 67 ops/s
+	Run...             OK 141.913 ms, 71 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 10000 16 5 165.445 61
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 100000
+Repeat count: 5
+	Run...             OK 512.070 ms, 196 ops/s
+	Run...             OK 622.789 ms, 161 ops/s
+	Run...             OK 576.621 ms, 174 ops/s
+	Run...             OK 570.029 ms, 176 ops/s
+	Run...             OK 589.955 ms, 170 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 100000 1 5 574.293 175
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 100000
+Repeat count: 5
+	Run...             OK 591.280 ms, 170 ops/s
+	Run...             OK 546.603 ms, 183 ops/s
+	Run...             OK 604.861 ms, 166 ops/s
+	Run...             OK 606.278 ms, 165 ops/s
+	Run...             OK 588.066 ms, 171 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 100000 2 5 587.418 171
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 100000
+Repeat count: 5
+	Run...             OK 691.403 ms, 145 ops/s
+	Run...             OK 688.224 ms, 146 ops/s
+	Run...             OK 667.125 ms, 150 ops/s
+	Run...             OK 626.694 ms, 160 ops/s
+	Run...             OK 642.549 ms, 156 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 100000 4 5 663.199 151
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 100000
+Repeat count: 5
+	Run...             OK 1650.668 ms, 61 ops/s
+	Run...             OK 1422.715 ms, 71 ops/s
+	Run...             OK 1447.803 ms, 70 ops/s
+	Run...             OK 1466.347 ms, 69 ops/s
+	Run...             OK 1561.899 ms, 65 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 100000 8 5 1509.886 67
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 100000
+Repeat count: 5
+	Run...             OK 2773.479 ms, 37 ops/s
+	Run...             OK 3191.417 ms, 32 ops/s
+	Run...             OK 3302.106 ms, 31 ops/s
+	Run...             OK 3016.443 ms, 34 ops/s
+	Run...             OK 2775.258 ms, 37 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 100000 16 5 3011.741 34
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1186.769 ms, 169 ops/s
+	Run...             OK 1216.065 ms, 165 ops/s
+	Run...             OK 1223.195 ms, 164 ops/s
+	Run...             OK 1240.938 ms, 162 ops/s
+	Run...             OK 1257.291 ms, 160 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 200000 1 5 1224.852 164
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1226.421 ms, 164 ops/s
+	Run...             OK 1192.737 ms, 168 ops/s
+	Run...             OK 1241.014 ms, 162 ops/s
+	Run...             OK 1221.595 ms, 164 ops/s
+	Run...             OK 1187.331 ms, 169 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 200000 2 5 1213.819 165
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 200000
+Repeat count: 5
+	Run...             OK 1438.114 ms, 140 ops/s
+	Run...             OK 1442.681 ms, 139 ops/s
+	Run...             OK 1433.135 ms, 140 ops/s
+	Run...             OK 1442.609 ms, 139 ops/s
+	Run...             OK 1455.629 ms, 138 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 200000 4 5 1442.434 139
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 200000
+Repeat count: 5
+	Run...             OK 3348.132 ms, 60 ops/s
+	Run...             OK 3479.737 ms, 58 ops/s
+	Run...             OK 3088.982 ms, 65 ops/s
+	Run...             OK 3199.232 ms, 63 ops/s
+	Run...             OK 2798.613 ms, 72 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 200000 8 5 3182.939 63
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 200000
+Repeat count: 5
+	Run...             OK 6636.247 ms, 31 ops/s
+	Run...             OK 6757.234 ms, 30 ops/s
+	Run...             OK 7374.589 ms, 28 ops/s
+	Run...             OK 6859.079 ms, 30 ops/s
+	Run...             OK 6535.809 ms, 31 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 200000 16 5 6832.592 30
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2515.698 ms, 160 ops/s
+	Run...             OK 2653.254 ms, 151 ops/s
+	Run...             OK 2662.513 ms, 151 ops/s
+	Run...             OK 2414.366 ms, 166 ops/s
+	Run...             OK 2384.037 ms, 168 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 400000 1 5 2525.974 159
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2371.978 ms, 169 ops/s
+	Run...             OK 2435.724 ms, 165 ops/s
+	Run...             OK 2463.153 ms, 163 ops/s
+	Run...             OK 2411.497 ms, 166 ops/s
+	Run...             OK 2512.389 ms, 160 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 400000 2 5 2438.948 165
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 400000
+Repeat count: 5
+	Run...             OK 2878.058 ms, 139 ops/s
+	Run...             OK 2861.892 ms, 140 ops/s
+	Run...             OK 2981.644 ms, 135 ops/s
+	Run...             OK 2852.336 ms, 141 ops/s
+	Run...             OK 2669.043 ms, 150 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 400000 4 5 2848.595 141
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 400000
+Repeat count: 5
+	Run...             OK 5893.274 ms, 68 ops/s
+	Run...             OK 6529.378 ms, 62 ops/s
+	Run...             OK 6637.562 ms, 61 ops/s
+	Run...             OK 5950.485 ms, 68 ops/s
+	Run...             OK 6347.932 ms, 64 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 400000 8 5 6271.726 64
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 400000
+Repeat count: 5
+	Run...             OK 14614.022 ms, 28 ops/s
+	Run...             OK 14227.948 ms, 29 ops/s
+	Run...             OK 14179.789 ms, 29 ops/s
+	Run...             OK 13306.341 ms, 31 ops/s
+	Run...             OK 13584.183 ms, 30 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 400000 16 5 13982.457 29
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 800000
+Repeat count: 5
+	Run...             OK 5453.369 ms, 147 ops/s
+	Run...             OK 5058.035 ms, 159 ops/s
+	Run...             OK 5115.964 ms, 157 ops/s
+	Run...             OK 5392.972 ms, 149 ops/s
+	Run...             OK 5379.465 ms, 149 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 800000 1 5 5279.961 152
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 800000
+Repeat count: 5
+	Run...             OK 5124.187 ms, 157 ops/s
+	Run...             OK 5065.189 ms, 158 ops/s
+	Run...             OK 5168.656 ms, 155 ops/s
+	Run...             OK 5241.006 ms, 153 ops/s
+	Run...             OK 5231.461 ms, 153 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 800000 2 5 5166.100 155
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 800000
+Repeat count: 5
+	Run...             OK 6102.203 ms, 132 ops/s
+	Run...             OK 6204.858 ms, 129 ops/s
+	Run...             OK 6076.603 ms, 132 ops/s
+	Run...             OK 5992.074 ms, 134 ops/s
+	Run...             OK 5785.825 ms, 139 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 800000 4 5 6032.313 133
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 800000
+Repeat count: 5
+	Run...             OK 13908.157 ms, 58 ops/s
+	Run...             OK 13744.611 ms, 59 ops/s
+	Run...             OK 13895.277 ms, 58 ops/s
+	Run...             OK 14850.550 ms, 54 ops/s
+	Run...             OK 14499.853 ms, 56 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 800000 8 5 14179.690 57
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 800000
+Repeat count: 5
+	Run...             OK 31203.247 ms, 26 ops/s
+	Run...             OK 26337.156 ms, 31 ops/s
+	Run...             OK 26637.523 ms, 31 ops/s
+	Run...             OK 26939.224 ms, 30 ops/s
+	Run...             OK 26461.159 ms, 31 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 800000 16 5 27515.662 30
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 6155.747 ms, 163 ops/s
+	Run...             OK 6152.448 ms, 163 ops/s
+	Run...             OK 6292.797 ms, 159 ops/s
+	Run...             OK 6079.897 ms, 165 ops/s
+	Run...             OK 6181.921 ms, 162 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000000 1 5 6172.562 163
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 5603.727 ms, 179 ops/s
+	Run...             OK 5677.711 ms, 177 ops/s
+	Run...             OK 5789.607 ms, 173 ops/s
+	Run...             OK 5714.703 ms, 175 ops/s
+	Run...             OK 5653.873 ms, 177 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000000 2 5 5687.924 176
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 6684.020 ms, 150 ops/s
+	Run...             OK 6723.127 ms, 149 ops/s
+	Run...             OK 6715.333 ms, 149 ops/s
+	Run...             OK 6772.112 ms, 148 ops/s
+	Run...             OK 6804.501 ms, 147 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000000 4 5 6739.819 149
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 15044.854 ms, 67 ops/s
+	Run...             OK 16713.508 ms, 60 ops/s
+	Run...             OK 16624.058 ms, 61 ops/s
+	Run...             OK 15830.219 ms, 64 ops/s
+	Run...             OK 16371.929 ms, 62 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000000 8 5 16116.913 63
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 1000000
+Repeat count: 5
+	Run...             OK 33491.211 ms, 30 ops/s
+	Run...             OK 31451.429 ms, 32 ops/s
+	Run...             OK 34176.461 ms, 30 ops/s
+	Run...             OK 33928.091 ms, 30 ops/s
+	Run...             OK 32946.317 ms, 31 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1000000 16 5 33198.702 31
+
+
+Test: TreeInsertTest
+Threads count: 1
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 9797.886 ms, 154 ops/s
+	Run...             OK 9752.063 ms, 154 ops/s
+	Run...             OK 9855.896 ms, 153 ops/s
+	Run...             OK 9856.112 ms, 153 ops/s
+	Run...             OK 9869.525 ms, 152 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1500000 1 5 9826.296 153
+
+
+Test: TreeInsertTest
+Threads count: 2
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 8894.737 ms, 169 ops/s
+	Run...             OK 8976.461 ms, 168 ops/s
+	Run...             OK 9252.465 ms, 163 ops/s
+	Run...             OK 8980.823 ms, 168 ops/s
+	Run...             OK 8865.260 ms, 170 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1500000 2 5 8993.949 167
+
+
+Test: TreeInsertTest
+Threads count: 4
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 10233.622 ms, 147 ops/s
+	Run...             OK 10854.946 ms, 139 ops/s
+	Run...             OK 10325.533 ms, 146 ops/s
+	Run...             OK 10996.086 ms, 137 ops/s
+	Run...             OK 10962.492 ms, 137 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1500000 4 5 10674.536 141
+
+
+Test: TreeInsertTest
+Threads count: 8
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 25764.898 ms, 59 ops/s
+	Run...             OK 26567.056 ms, 57 ops/s
+	Run...             OK 23733.923 ms, 64 ops/s
+	Run...             OK 26752.974 ms, 57 ops/s
+	Run...             OK 24846.930 ms, 61 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1500000 8 5 25533.156 59
+
+
+Test: TreeInsertTest
+Threads count: 16
+Input size: 1500000
+Repeat count: 5
+	Run...             OK 52136.505 ms, 29 ops/s
+	Run...             OK 51645.223 ms, 30 ops/s
+	Run...             OK 50010.773 ms, 30 ops/s
+	Run...             OK 53923.176 ms, 28 ops/s
+	Run...             OK 47339.913 ms, 32 ops/s
+
+> TreeInsertTest TML_LAZY_SAFE OK 1500000 16 5 51011.118 30
+
+
